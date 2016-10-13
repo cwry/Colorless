@@ -5,7 +5,7 @@ public class RenderCollider : MonoBehaviour {
 
     private PolygonCollider2D coll;
 
-    void Start() {
+    void OnEnable() {
         coll = GetComponent<PolygonCollider2D>();
     }
 
