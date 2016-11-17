@@ -10,8 +10,8 @@ public class SnapToTerrain : MonoBehaviour {
     }
 
     void Update() {
-        RaycastHit2D ray = Physics2D.CircleCast(transform.position, coll.radius, Vector2.down, Mathf.Infinity, 1 << LayerMask.NameToLayer("Terrain"));
-        Debug.Log(ray.centroid);
+        RaycastHit2D ray = Physics2D.CircleCast(new Vector3(transform.position.x, transform.position.y - 100, transform.position.z), coll.radius, Vector2.down, Mathf.Infinity, 1 << LayerMask.NameToLayer("Terrain"));
+        Debug.Log(ray.point);
         transform.position = new Vector3(transform.position.x, ray.centroid.y, transform.position.z);
     }
 
