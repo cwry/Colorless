@@ -17,8 +17,7 @@ public class WinCondition_Pitch_Fri : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }else if(distance <= winBias) {
             Destroy(wolf);
+            enabled = false;
         }
-
-        
     } 
 }
