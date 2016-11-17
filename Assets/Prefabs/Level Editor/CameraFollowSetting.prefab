@@ -66,9 +66,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da7f4d9889ae6e4f9e61d8ff88a0a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSizeMethod: 0
+  cameraSizeMethod: 1
   cameraSizeModifier: 1
-  cameraSizeValue: 0
+  cameraSizeValue: 5000000
   cameraXPositionMethod: 0
   cameraXPositionValue: 0
   cameraXPositionOverrideOffset: 1
