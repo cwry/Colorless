@@ -5,15 +5,17 @@ using System;
 
 //acts as a "curry-proxy" for visual scripting
 public class PristineTrigger : MonoBehaviour {
-    [SerializeField]
-    private string nameForHumanReference;
-    [ShowDelegate]
-    [SerializeField]
-    private KickassDelegate onTrigger;
+    [SerializeField] private string nameForHumanReference;
+    [SerializeField] private bool once = false;
+    private bool fired = false;
+    [ShowDelegate][SerializeField] private KickassDelegate onTrigger;
 
     public Action curryTrigger(){
         return () => {
-            onTrigger.InvokeWithEditorArgs();
+            if(!once || !fired) {
+                onTrigger.InvokeWithEditorArgs();
+                fired = true;
+            }
         };
     }
 }

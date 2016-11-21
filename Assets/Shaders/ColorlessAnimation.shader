@@ -12,6 +12,7 @@
 		Blend SrcAlpha OneMinusSrcAlpha
 		Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transparent" }
 		Pass{
+			Cull Off
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag

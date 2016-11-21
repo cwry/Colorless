@@ -44,6 +44,25 @@ public class ColorlessSprite : MonoBehaviour {
             }
         }
     }
+
+    [SerializeField] private bool _flipX = false;
+    public bool flipX {
+        get { return _flipX; }
+        set {
+            _flipX = value;
+            render.flipX = value;
+        }
+    }
+
+    [SerializeField] private bool _flipY = false;
+    public bool flipY {
+        get { return _flipY; }
+        set {
+            _flipY = value;
+            render.flipY = value;
+        }
+    }
+
     [SerializeField][Range(0.0f, 1.0f)] private float _interpolationRange;
     public float interpolationRange {
         get { return _interpolationRange; }
@@ -85,6 +104,8 @@ public class ColorlessSprite : MonoBehaviour {
         mainTexture = mainTexture;
         grayScaleTexture = grayScaleTexture;
         animationMaskTexture = animationMaskTexture;
+        flipX = flipX;
+        flipY = flipY;
         interpolationRange = interpolationRange;
         animationState = animationState;
     }
