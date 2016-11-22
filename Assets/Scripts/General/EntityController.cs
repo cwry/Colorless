@@ -21,7 +21,7 @@ public class EntityController : MonoBehaviour {
     }
 
     void Update() {
-        shouldJump = shouldJump || Input.GetKeyDown("space");
+        shouldJump = shouldJump || Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.Joystick1Button0);
     }
 
     void FixedUpdate() {
