@@ -21,11 +21,12 @@ public class EntityController : MonoBehaviour {
     }
 
     void Update() {
-        shouldJump = shouldJump || Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.Joystick1Button0);
+        shouldJump = !Globals.suppressPlayInput && (shouldJump || Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.Joystick1Button0));
     }
 
     void FixedUpdate() {
         float dir = Input.GetAxisRaw("Horizontal");
+        if (Globals.suppressPlayInput) dir = 0;
         RaycastHit2D ray = Physics2D.CircleCast(rb.position, coll.radius, Vector2.down, Mathf.Infinity, 1 << LayerMask.NameToLayer("Terrain"));
         float slope = Mathf.Atan2(ray.normal.x, ray.normal.y) * Mathf.Rad2Deg;
         bool isGrounded = ray.distance <= groundBias;

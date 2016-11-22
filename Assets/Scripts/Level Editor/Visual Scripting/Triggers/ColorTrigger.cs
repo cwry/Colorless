@@ -11,7 +11,7 @@ public class ColorTrigger : MonoBehaviour {
 
     void Update() {
         if (!(!once || !fired)) return;
-        if (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Joystick1Button2)) {
+        if (!Globals.suppressPlayInput && (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Joystick1Button2))) {
             if(maxDistance >= 0) {
                 Vector2 delta = new Vector2(transform.position.x - distanceCheckTarget.transform.position.x, transform.position.y - distanceCheckTarget.transform.position.y);
                 float distance = Mathf.Sqrt(delta.x * delta.x + delta.y * delta.y);
