@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollFactor: 0.8
+  referencePosition: {fileID: 0}
 --- !u!1 &407342705
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollFactor: -0.2
+  referencePosition: {fileID: 0}
 --- !u!1 &1000665716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,6 +1411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollFactor: 0.2
+  referencePosition: {fileID: 0}
 --- !u!1 &1244382020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollFactor: 0.6
+  referencePosition: {fileID: 0}
 --- !u!1001 &1620681133
 Prefab:
   m_ObjectHideFlags: 0
@@ -2474,6 +2478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollFactor: 0.4
+  referencePosition: {fileID: 0}
 --- !u!1 &1921548849
 GameObject:
   m_ObjectHideFlags: 1

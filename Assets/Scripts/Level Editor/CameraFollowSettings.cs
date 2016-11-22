@@ -11,9 +11,10 @@ public class CameraFollowSettings : MonoBehaviour {
     public enum CameraSizeMethod {
         INHERIT = 0,
         VALUE = 1,
-        COLLIDER = 2
+        COLLIDER_HEIGHT = 2,
+        COLLIDER_WIDTH = 3
     }
-    private Func<float, float>[] cameraSizeMethods = new Func<float, float>[3];
+    private Func<float, float>[] cameraSizeMethods = new Func<float, float>[4];
     public CameraSizeMethod cameraSizeMethod;
     public float cameraSizeModifier = 1;
     public float cameraSizeValue;
@@ -45,7 +46,8 @@ public class CameraFollowSettings : MonoBehaviour {
 
         cameraSizeMethods[(int)CameraSizeMethod.INHERIT] = sanitizeCameraSizeInherit;
         cameraSizeMethods[(int)CameraSizeMethod.VALUE] = sanitizeCameraSizeValue;
-        cameraSizeMethods[(int)CameraSizeMethod.COLLIDER] = sanitizeCameraSizeCollider;
+        cameraSizeMethods[(int)CameraSizeMethod.COLLIDER_HEIGHT] = sanitizeCameraSizeColliderHeight;
+        cameraSizeMethods[(int)CameraSizeMethod.COLLIDER_WIDTH] = sanitizeCameraSizeColliderWidth;
 
         cameraXPositionMethods[(int)CameraPositionMethod.INHERIT] = sanitizePosInherit;
         cameraXPositionMethods[(int)CameraPositionMethod.VALUE] = sanitizeXPosValue;
@@ -110,8 +112,12 @@ public class CameraFollowSettings : MonoBehaviour {
         return size;
     }
 
-    float sanitizeCameraSizeCollider(float size) {
+    float sanitizeCameraSizeColliderHeight(float size) {
         return coll.size.y * 0.5f;
+    }
+
+    float sanitizeCameraSizeColliderWidth(float size) {
+        return coll.size.x / Camera.main.aspect * 0.5f;
     }
 
     float sanitizePosInherit(float pos) {
@@ -203,7 +209,6 @@ public class CameraFollowSettings : MonoBehaviour {
 
             EditorGUILayout.PropertyField(serializedObject.FindProperty("dampen"), new GUIContent("Dampen Camera Movement"));
             if(tar.dampen) EditorGUILayout.PropertyField(serializedObject.FindProperty("dampModifier"), new GUIContent("Camera Dampening Modifier"));
-
 
             EditorGUILayout.Space();
 
