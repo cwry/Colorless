@@ -32,7 +32,7 @@ public class MenuScript : MonoBehaviour {
 
 
     public void StartLevel() {
-         Application.LoadLevel(2);
+         Application.LoadLevel(1);
     }
 
 
