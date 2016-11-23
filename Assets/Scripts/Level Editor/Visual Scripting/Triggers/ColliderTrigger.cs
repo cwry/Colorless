@@ -1,31 +1,32 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using System.Collections;
-using uFAction;
+using ByteSheep.Events;
 
 public class ColliderTrigger : MonoBehaviour {
     [SerializeField] private string nameForHumanReference;
     [SerializeField] private bool once = false;
     private bool fired = false;
     [SerializeField] private string tagFilter;
-    [ShowDelegate] public KickassDelegate onTriggerEnter;
-    [ShowDelegate] public KickassDelegate onTriggerExit;
-    [ShowDelegate] public KickassDelegate onTriggerStay;
+    public AdvancedEvent onTriggerEnter;
+    public AdvancedEvent onTriggerExit;
+    public AdvancedEvent onTriggerStay;
 
     void OnTriggerEnter2D(Collider2D other) {
         if (!shouldTrigger(other)) return;
-        onTriggerEnter.InvokeWithEditorArgs();
+        onTriggerEnter.Invoke();
         fired = true;
     }
 
     void OnTriggerExit2D(Collider2D other) {
         if (!shouldTrigger(other)) return;
-        onTriggerExit.InvokeWithEditorArgs();
+        onTriggerExit.Invoke();
         fired = true;
     }
 
     void OnTriggerStay2D(Collider2D other) {
         if (!shouldTrigger(other)) return;
-        onTriggerStay.InvokeWithEditorArgs();
+        onTriggerStay.Invoke();
         fired = true;
     }
 

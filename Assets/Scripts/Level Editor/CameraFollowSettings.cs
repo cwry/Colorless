@@ -38,10 +38,10 @@ public class CameraFollowSettings : MonoBehaviour {
     public bool cameraYPositionOverrideOffset = true;
     public float cameraYPositionOffset;
 
-    BoxCollider2D coll;
+    public BoxCollider2D coll = null;
 
     void Awake() {
-        coll = GetComponent<BoxCollider2D>();
+        if(coll == null) coll = GetComponent<BoxCollider2D>();
 
         cameraSizeMethods[(int)CameraSizeMethod.INHERIT] = sanitizeCameraSizeInherit;
         cameraSizeMethods[(int)CameraSizeMethod.VALUE] = sanitizeCameraSizeValue;

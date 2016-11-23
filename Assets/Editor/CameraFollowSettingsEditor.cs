@@ -9,6 +9,10 @@ class CameraFollowSettingsEditor : Editor {
         CameraFollowSettings tar = (CameraFollowSettings)target;
         serializedObject.Update();
 
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("coll"), new GUIContent("Effect Collider"));
+
+        EditorGUILayout.Space();
+
         EditorGUILayout.PropertyField(serializedObject.FindProperty("dampen"), new GUIContent("Dampen Camera Movement"));
         if (tar.dampen) EditorGUILayout.PropertyField(serializedObject.FindProperty("dampModifier"), new GUIContent("Camera Dampening Modifier"));
 

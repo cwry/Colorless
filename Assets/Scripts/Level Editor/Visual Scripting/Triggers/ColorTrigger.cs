@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
-using uFAction;
+using ByteSheep.Events;
 
 public class ColorTrigger : MonoBehaviour {
     public GameObject distanceCheckTarget;
     public float maxDistance = 1;
     [SerializeField] private bool once = false;
     private bool fired = false;
-    [ShowDelegate][SerializeField] private KickassDelegate onTrigger;
+    public AdvancedEvent onTrigger;
 
     void Update() {
         if (!(!once || !fired)) return;
@@ -18,7 +18,7 @@ public class ColorTrigger : MonoBehaviour {
                 if (distance > maxDistance) return;
             }
             fired = true;
-            onTrigger.InvokeWithEditorArgs();
+            onTrigger.Invoke();
         }
     }
 }

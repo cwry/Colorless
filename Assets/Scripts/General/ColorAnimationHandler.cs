@@ -15,6 +15,14 @@ public class ColorAnimationHandler : MonoBehaviour {
     private Action onFaded;
     private bool animating = false;
 
+    public void test(PristineTrigger s) {
+        s.curryTrigger()();
+    }
+
+    public void animateVS(float targetState, bool shouldFade, PristineTrigger onDone, PristineTrigger onFaded) {
+        animate(targetState, shouldFade, onDone == null ? null : onDone.curryTrigger(), onFaded == null ? null : onFaded.curryTrigger());
+    }
+
     public void animate(float targetState, bool shouldFade, Action onDone, Action onFaded) {
         this.targetState = targetState;
         previousState = sprite.animationState;
