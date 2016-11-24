@@ -100,6 +100,10 @@ public class ColorlessSprite : MonoBehaviour {
         init();
     }
 
+    public Material getMaterial(){
+        return render.sharedMaterial;
+    }
+
     private void editorPropertyHack() { //💀🔫
         mainTexture = mainTexture;
         grayScaleTexture = grayScaleTexture;
