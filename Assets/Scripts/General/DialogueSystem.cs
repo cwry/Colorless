@@ -13,6 +13,7 @@ public class DialogueSystem : MonoBehaviour {
     public void show(){
         if (texts == null) return;
         index = 0;
+        textField.text = texts[0];
         Globals.suppressPlayInput = true;
         showing = true;
         Time.timeScale = float.Epsilon;
