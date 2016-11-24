@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Spine.Unity;
 
 public class EntityController : MonoBehaviour {
     private Rigidbody2D rb;
@@ -15,9 +16,24 @@ public class EntityController : MonoBehaviour {
     public float maxJumpSlope = 45f;
     public float maxSlope = 45f;
 
+    public Spine.AnimationState animationState;
+    public Spine.Skeleton skeleton;
+
+    public SkeletonAnimation skeletonAnimation;
+    public string walkAnimation;
+    public float walkTimescaleFactor;
+    public string idleAnimation;
+    public float idleTimeScale;
+    string currentAnimation;
+
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<CircleCollider2D>();
+    }
+
+    void Start() {
+        animationState = skeletonAnimation.state;
+        skeleton = skeletonAnimation.skeleton;
     }
 
     void Update() {
@@ -55,6 +71,25 @@ public class EntityController : MonoBehaviour {
 
         if (Mathf.Abs(rb.velocity.x) > maxSpeed) {
             rb.velocity = new Vector2(Mathf.Sign(rb.velocity.x) * maxSpeed, rb.velocity.y);
+        }
+
+        if((Mathf.Abs(dir) < 0.1 || jumping)) {
+            if (currentAnimation != idleAnimation) {
+                currentAnimation = idleAnimation;
+                animationState.SetAnimation(0, idleAnimation, true);
+            }
+            animationState.TimeScale = idleTimeScale;
+        }else{
+            if(currentAnimation != walkAnimation) {
+                currentAnimation = walkAnimation;
+                animationState.SetAnimation(0, walkAnimation, true);
+            }
+            animationState.TimeScale = Mathf.Abs(rb.velocity.x) * walkTimescaleFactor;
+            if(dir < 0) {
+                skeleton.flipX = true;
+            }else {
+                skeleton.flipX = false;
+            }
         }
 
         if (!jumping && Mathf.Abs(dir) < 0.1) {
