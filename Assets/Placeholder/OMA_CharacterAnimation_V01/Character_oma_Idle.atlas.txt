@@ -1,0 +1,132 @@
+
+Character_oma_Idle.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_Oben
+  rotate: false
+  xy: 311, 35
+  size: 184, 270
+  orig: 184, 270
+  offset: 0, 0
+  index: -1
+Auge_geschlossen
+  rotate: false
+  xy: 497, 31
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+Auge_offen
+  rotate: false
+  xy: 311, 2
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+Augenbraue
+  rotate: false
+  xy: 883, 192
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 24
+  size: 307, 478
+  orig: 307, 478
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 580, 298
+  size: 204, 222
+  orig: 204, 222
+  offset: 0, 0
+  index: -1
+Gehstock
+  rotate: false
+  xy: 953, 169
+  size: 52, 333
+  orig: 52, 333
+  offset: 0, 0
+  index: -1
+Haare
+  rotate: false
+  xy: 574, 93
+  size: 117, 117
+  orig: 117, 117
+  offset: 0, 0
+  index: -1
+Hand_Unten
+  rotate: false
+  xy: 804, 192
+  size: 77, 76
+  orig: 77, 76
+  offset: 0, 0
+  index: -1
+Hand_oben
+  rotate: false
+  xy: 693, 100
+  size: 73, 110
+  orig: 73, 110
+  offset: 0, 0
+  index: -1
+LINKS_Bein
+  rotate: true
+  xy: 574, 212
+  size: 84, 185
+  orig: 84, 185
+  offset: 0, 0
+  index: -1
+LINKS_Fuss
+  rotate: false
+  xy: 883, 224
+  size: 59, 44
+  orig: 59, 44
+  offset: 0, 0
+  index: -1
+MUND_happy
+  rotate: false
+  xy: 545, 115
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+Ohr
+  rotate: false
+  xy: 497, 65
+  size: 46, 68
+  orig: 46, 68
+  offset: 0, 0
+  index: -1
+RECHTS_Bein
+  rotate: false
+  xy: 497, 135
+  size: 75, 170
+  orig: 75, 170
+  offset: 0, 0
+  index: -1
+RECHTS_Fuss
+  rotate: true
+  xy: 761, 239
+  size: 57, 41
+  orig: 57, 41
+  offset: 0, 0
+  index: -1
+Schal
+  rotate: false
+  xy: 311, 307
+  size: 267, 195
+  orig: 267, 195
+  offset: 0, 0
+  index: -1
+arm_Unten
+  rotate: false
+  xy: 804, 270
+  size: 147, 232
+  orig: 147, 232
+  offset: 0, 0
+  index: -1
