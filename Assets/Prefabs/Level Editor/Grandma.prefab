@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010548785080}
+  - 114: {fileID: 114000014175253834}
   m_Layer: 0
   m_Name: Grandma
   m_TagString: Untagged
@@ -37,6 +38,7 @@ GameObject:
   - 33: {fileID: 33000010135303804}
   - 23: {fileID: 23000012597309692}
   - 114: {fileID: 114000011952814096}
+  - 114: {fileID: 114000011944471976}
   m_Layer: 0
   m_Name: SkeletonAnimation
   m_TagString: Untagged
@@ -107,6 +109,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012908123646}
   m_Mesh: {fileID: 0}
+--- !u!114 &114000011944471976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012908123646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b29318d5011a144d9af2297b81fb8af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainTexture: {fileID: 2800000, guid: 5ced8fcf3bb094148b62a512bd97728c, type: 3}
+  _grayScaleTexture: {fileID: 0}
+  _animationMaskTexture: {fileID: 0}
+  _interpolationRange: 0.1
+  _animationState: 0
 --- !u!114 &114000011952814096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -130,6 +148,21 @@ MonoBehaviour:
   calculateTangents: 0
   logErrors: 0
   disableRenderingOnOverride: 1
-  _animationName: Idle
+  _animationName: Stone
   loop: 1
   timeScale: 1
+--- !u!114 &114000014175253834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012636398112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationSpeed: 1
+  fadeDelay: 0
+  sprite: {fileID: 0}
+  mesh: {fileID: 114000011944471976}

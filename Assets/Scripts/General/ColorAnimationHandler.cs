@@ -6,7 +6,7 @@ public class ColorAnimationHandler : MonoBehaviour {
     public float animationSpeed;
     public float fadeDelay;
     public ColorlessSprite sprite;
-    public Material mat;
+    public ColorlessMesh mesh;
 
     private float targetState;
     private float previousState;
@@ -28,18 +28,22 @@ public class ColorAnimationHandler : MonoBehaviour {
     }
 
     void setState(float state){
-        if (sprite == null){
-            mat.SetFloat("_animState", state);
-        }else{
+        if (sprite != null){
             sprite.animationState = state;
+        } 
+        if (mesh != null) {
+            mesh.animationState = state;
         }
     }
 
     float getState(){
-        if(sprite == null){
-            return mat.GetFloat("_animState");
+        if(sprite != null){
+            return sprite.animationState;
         }
-        return sprite.animationState;
+        if(mesh != null) {
+            return mesh.animationState;
+        }
+        return -1;
     }
 
     public void animate(float targetState, bool shouldFade, Action onDone, Action onFaded) {

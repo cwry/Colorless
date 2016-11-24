@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: f5153026ea8cab044b2375694e391a89
-timeCreated: 1479973383
+timeCreated: 1480013687
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -47,7 +47,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 5
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2

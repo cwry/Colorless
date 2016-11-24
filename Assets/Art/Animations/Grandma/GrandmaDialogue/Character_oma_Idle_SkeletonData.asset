@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: Character_oma_Idle_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: cf88831fb95acc441b7a7e52466c5171, type: 2}
+  - {fileID: 11400000, guid: 05ffcf049d8fe21458b7cc53cd72da35, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: a651ba0f06b48864ca999a71c08646c5, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 498a34dcc300ecb4e837cce4fa2d4122, type: 3}
   fromAnimation: []
   toAnimation: []
   duration: []

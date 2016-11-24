@@ -22,6 +22,7 @@ GameObject:
   - 114: {fileID: 114000012854847454}
   - 114: {fileID: 114000011854719472}
   - 114: {fileID: 114000012611644496}
+  - 114: {fileID: 114000010824649008}
   m_Layer: 0
   m_Name: VSHelpers
   m_TagString: Untagged
@@ -42,6 +43,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &114000010824649008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013078734906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b1660d64f51554ca47dafa91e76dcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000011854719472
 MonoBehaviour:
   m_ObjectHideFlags: 1

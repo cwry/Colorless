@@ -3,12 +3,12 @@
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Character_oma_Idle_Material
   m_Shader: {fileID: 4800000, guid: 987898f3f2292a440a6c8d888356cbb9, type: 3}
-  m_ShaderKeywords: _ANIMFALLBACK_ON _GRAYFALLBACK_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -24,7 +24,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 97fb4cb8c4f177b40a5104bd51d0b923, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5ced8fcf3bb094148b62a512bd97728c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
