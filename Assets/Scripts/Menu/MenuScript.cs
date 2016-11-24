@@ -5,6 +5,10 @@ using System.Collections;
 public class MenuScript : MonoBehaviour {
 
     public Canvas quitMenu;
+    public Canvas optionMenu;
+    public Canvas startMenu;
+    public Canvas creditsMenu;
+
     public Button startText;
     public Button exitText;
 
@@ -14,7 +18,9 @@ public class MenuScript : MonoBehaviour {
         startText = startText.GetComponent<Button>();
         exitText = startText.GetComponent<Button>();
         quitMenu.enabled = false;
-	}
+        optionMenu.enabled = false;
+        creditsMenu.enabled = false;
+    }
 
 
     public void ExitPress() {
@@ -38,5 +44,21 @@ public class MenuScript : MonoBehaviour {
 
     public void ExitGame() {
         Application.Quit();
+    }
+
+    public void OptionPress() {
+        startMenu.enabled = false;
+        optionMenu.enabled = true;
+    }
+
+    public void CreditsPress() {
+        startMenu.enabled = false;
+        creditsMenu.enabled = true;
+    }
+
+    public void BackPress() {
+        startMenu.enabled = true;
+        creditsMenu.enabled = false;
+        optionMenu.enabled = false;
     }
 }
