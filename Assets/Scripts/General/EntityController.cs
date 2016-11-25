@@ -85,11 +85,12 @@ public class EntityController : MonoBehaviour {
                 animationState.SetAnimation(0, walkAnimation, true);
             }
             animationState.TimeScale = Mathf.Abs(rb.velocity.x) * walkTimescaleFactor;
-            if(dir < 0) {
-                skeleton.flipX = true;
-            }else {
-                skeleton.flipX = false;
-            }
+        }
+
+        if (dir < - 0.1) {
+            skeleton.flipX = true;
+        } else if(dir > 0.1) {
+            skeleton.flipX = false;
         }
 
         if (!jumping && Mathf.Abs(dir) < 0.1) {
