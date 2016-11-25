@@ -23,6 +23,13 @@ public class MenuScript : MonoBehaviour {
     }
 
 
+    IEnumerator LevelFade() {
+        float fadeTime = GameObject.Find("GameManager").GetComponent<SceneFade>().BeginFade(1);
+        yield return new WaitForSeconds(fadeTime);
+        Application.LoadLevel(1);
+    }
+
+
     public void ExitPress() {
         quitMenu.enabled = true;
         startText.enabled = false;
@@ -38,7 +45,7 @@ public class MenuScript : MonoBehaviour {
 
 
     public void StartLevel() {
-         Application.LoadLevel(1);
+        StartCoroutine(LevelFade());
     }
 
 
@@ -61,4 +68,6 @@ public class MenuScript : MonoBehaviour {
         creditsMenu.enabled = false;
         optionMenu.enabled = false;
     }
+
+
 }
