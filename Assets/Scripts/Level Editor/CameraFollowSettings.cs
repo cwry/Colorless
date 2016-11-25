@@ -178,6 +178,7 @@ public class CameraFollowSettings : MonoBehaviour {
     float sanitizeXPosCollider(float xPos) {
         Bounds colliderBounds = coll.bounds;
         Bounds cameraBounds = Camera.main.orthographicBounds();
+        if (colliderBounds.size.x <= cameraBounds.size.x) return colliderBounds.center.x;
         cameraBounds.center = new Vector3(xPos, cameraBounds.center.y, cameraBounds.center.z);
         float left = colliderBounds.min.x - cameraBounds.min.x;
         float right = colliderBounds.max.x - cameraBounds.max.x;
@@ -190,6 +191,7 @@ public class CameraFollowSettings : MonoBehaviour {
     float sanitizeYPosCollider(float yPos) {
         Bounds colliderBounds = coll.bounds;
         Bounds cameraBounds = Camera.main.orthographicBounds();
+        if (colliderBounds.size.y <= cameraBounds.size.y) return colliderBounds.center.y;
         cameraBounds.center = new Vector3(cameraBounds.center.x, yPos, cameraBounds.center.z);
         float bottom = colliderBounds.min.y - cameraBounds.min.y;
         float top = colliderBounds.max.y - cameraBounds.max.y;

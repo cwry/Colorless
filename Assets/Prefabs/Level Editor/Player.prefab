@@ -42,6 +42,7 @@ GameObject:
   - 58: {fileID: 58000013661497106}
   - 61: {fileID: 61000013931526866}
   - 114: {fileID: 114000010360209000}
+  - 114: {fileID: 114000011450398006}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -56,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013178844992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -231.6, y: 5.6, z: -9}
+  m_LocalPosition: {x: -101.7, y: 3.18, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -179,7 +180,7 @@ MonoBehaviour:
   heightCorrectionBias: 0.5
   maxSpeed: 4
   acceleration: 2
-  jumpForce: 5
+  jumpForce: 6
   maxJumpSlope: 45
   maxSlope: 45
   skeletonAnimation: {fileID: 114000010472652356}
@@ -213,3 +214,14 @@ MonoBehaviour:
   _animationName: Idle Animation
   loop: 1
   timeScale: 0.5
+--- !u!114 &114000011450398006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013178844992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a91e8a028d5698409304fa6a3ee3376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -19,10 +19,6 @@ public class ColorAnimationHandler : MonoBehaviour {
     void Awake(){
     }
 
-    public void test(PristineTrigger s) {
-        s.curryTrigger()();
-    }
-
     public void animateVS(float targetState, bool shouldFade, PristineTrigger onDone, PristineTrigger onFaded) {
         animate(targetState, shouldFade, onDone == null ? null : onDone.curryTrigger(), onFaded == null ? null : onFaded.curryTrigger());
     }
@@ -61,7 +57,6 @@ public class ColorAnimationHandler : MonoBehaviour {
         float sign = Mathf.Sign(targetState - previousState);
 
         setState(getState() + sign * animationSpeed * Time.deltaTime);
-
         if((targetState >= previousState && getState() >= targetState) || (targetState <= previousState && getState() <= targetState)) {
             setState(targetState);
             if(onDone != null) onDone();
