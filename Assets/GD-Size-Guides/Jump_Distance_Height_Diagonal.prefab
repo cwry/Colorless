@@ -86,8 +86,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011760403966}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6704004, y: 5.16, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.96, y: 8.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -103,8 +103,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011996464426}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1495998, y: -3.4253244, z: 0}
-  m_LocalScale: {x: 5.4, y: 0.74, z: 1}
+  m_LocalPosition: {x: -4.93, y: -3.4253244, z: 0}
+  m_LocalScale: {x: 10.963278, y: 0.74, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010273580662}
@@ -115,10 +115,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013081019504}
-  m_LocalRotation: {x: 0, y: 0, z: -0.44775915, w: 0.8941542}
-  m_LocalPosition: {x: -2.12, y: -0.93, z: 0}
-  m_LocalScale: {x: 0.087362215, y: 7.0692053, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -53.2}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6767466, w: 0.7362161}
+  m_LocalPosition: {x: -4.81, y: -1.22, z: 0}
+  m_LocalScale: {x: 0.087362215, y: 10.771946, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -85.317}
   m_Children: []
   m_Father: {fileID: 4000010273580662}
   m_RootOrder: 2
@@ -129,8 +129,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010700367130}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.9804003, y: -1.0353241, z: 0}
-  m_LocalScale: {x: 4.140002, y: 0.74000025, z: 1}
+  m_LocalPosition: {x: 0.9804003, y: -1.92, z: 0}
+  m_LocalScale: {x: 2.3658507, y: 0.74000025, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_Children: []
   m_Father: {fileID: 4000010273580662}
