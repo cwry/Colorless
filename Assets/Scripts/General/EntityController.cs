@@ -7,6 +7,8 @@ public class EntityController : MonoBehaviour {
 
     private bool shouldJump = false;
     private bool jumping = false;
+    [HideInInspector] public bool isInClimbZone = false;
+    private bool isClimbing = false;
 
     public float groundBias = 0.1f;
     public float heightCorrectionBias = 1f;
@@ -15,6 +17,7 @@ public class EntityController : MonoBehaviour {
     public float jumpForce = 5;
     public float maxJumpSlope = 45f;
     public float maxSlope = 45f;
+    public float climbSpeed = 2f;
 
     public Spine.AnimationState animationState;
     public Spine.Skeleton skeleton;
@@ -42,10 +45,36 @@ public class EntityController : MonoBehaviour {
 
     void FixedUpdate() {
         float dir = Input.GetAxisRaw("Horizontal");
+        float climbDir = Input.GetAxisRaw("Vertical");
         if (Globals.suppressPlayInput) dir = 0;
         RaycastHit2D ray = Physics2D.CircleCast(rb.position, coll.radius, Vector2.down, Mathf.Infinity, 1 << LayerMask.NameToLayer("Terrain"));
         float slope = Mathf.Atan2(ray.normal.x, ray.normal.y) * Mathf.Rad2Deg;
         bool isGrounded = ray.distance <= groundBias;
+
+        if (isInClimbZone && !shouldJump && (isClimbing || Mathf.Abs(climbDir) > 0.25)) {
+            jumping = false;
+            isClimbing = true;
+            isInClimbZone = false;
+
+            if(Mathf.Abs(climbDir) > 0.25) {
+                rb.velocity = new Vector2(0, climbDir * climbSpeed);
+            }else {
+                rb.velocity = new Vector2(0, 0);
+            }
+
+            if(Mathf.Abs(dir) > 0.25) {
+                rb.velocity = new Vector2(dir * climbSpeed, rb.velocity.y);
+            }else {
+                rb.velocity = new Vector2(0, rb.velocity.y);
+            }
+
+            rb.gravityScale = 0;
+            return;
+        }else {
+            isInClimbZone = false;
+            isClimbing = false;
+            rb.gravityScale = 1;
+        }
 
         if (!jumping && shouldJump && Mathf.Abs(slope) <= maxJumpSlope) {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
