@@ -1168,11 +1168,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 57.1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -7.6
+      value: 7.9
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1228,6 +1228,16 @@ Prefab:
         type: 2}
       propertyPath: maxSpeed
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
+        type: 2}
+      propertyPath: walkTimescaleFactor
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
+        type: 2}
+      propertyPath: runTimescaleFactor
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
