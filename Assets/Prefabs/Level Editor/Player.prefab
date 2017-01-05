@@ -57,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013178844992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -238.91, y: 3.81, z: -9}
+  m_LocalPosition: {x: -60.8, y: -2.33, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -90,7 +90,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0ffb18dcd88d6c245ab67dc738660526, type: 2}
+  - {fileID: 2100000, guid: d99389625ee9f124a9fc6a31fbddc08e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c7d3b4d49b9f7459076d68f1d4e13a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInClimbZone: 0
   groundBias: 0.1
   heightCorrectionBias: 0.5
   maxSpeed: 4
@@ -183,11 +184,25 @@ MonoBehaviour:
   jumpForce: 6
   maxJumpSlope: 45
   maxSlope: 45
+  climbSpeed: 2
   skeletonAnimation: {fileID: 114000010472652356}
   walkAnimation: Walk Cycle Animation
   walkTimescaleFactor: 0.75
+  runAnimation: Run Cycle Animation
+  runTimescaleFactor: 0.75
   idleAnimation: Idle Animation
   idleTimeScale: 1
+  jumpAnimation: Jump (Start)
+  jumpTimeScale: 4
+  fallAnimation: Jump (Middle) (Loop)
+  fallTimeScale: 1
+  landingAnimation: Jump (End)
+  landingTimeScale: 6
+  colorAnimation: Coloring stuff Animation
+  colorTimeScale: 1
+  pushAnimation: Push (Still)
+  pushWalkAnimation: Push Loop
+  pushWalkTimescaleFactor: 1
 --- !u!114 &114000010472652356
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -199,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: a3d1e869b0dc28f4cbbdc4fa6d49d4f9, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: b3c2e96daba37894e9c4a614d9c2ac3c, type: 2}
   initialSkinName: default
   separatorSlotNames: []
   zSpacing: 0

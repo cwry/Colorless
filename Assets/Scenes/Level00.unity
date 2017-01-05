@@ -2438,6 +2438,7 @@ GameObject:
   - 114: {fileID: 1730776148}
   - 114: {fileID: 1730776147}
   - 114: {fileID: 1730776151}
+  - 114: {fileID: 1730776152}
   m_Layer: 0
   m_Name: ColorDemoTrigger
   m_TagString: Untagged
@@ -2720,6 +2721,24 @@ MonoBehaviour:
           enumArgument: 
         isDynamic: 0
         isCallEnabled: 1
+--- !u!114 &1730776152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1730776146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e18dfb86c107fd40ba3230c01b6a86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceCheckTarget: {fileID: 164707919}
+  maxDistance: 1
+  once: 0
+  onTrigger:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
 --- !u!1 &1849274162
 GameObject:
   m_ObjectHideFlags: 0

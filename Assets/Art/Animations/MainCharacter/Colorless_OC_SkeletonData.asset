@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
-  m_Name: Colorless_RunCycle_SkeletonData
+  m_Name: Colorless_OC_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: d11c7380acf663841a3c839b03efcc7e, type: 2}
+  - {fileID: 11400000, guid: 8b8bbc39eb1a22042b9cb3a2937a1019, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: b023af144c480914781e7f7a64710924, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: ab129ed8141492c4eb5d4bd7b13b6982, type: 3}
   fromAnimation: []
   toAnimation: []
   duration: []

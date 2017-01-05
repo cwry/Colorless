@@ -29,7 +29,7 @@ public class DialogueSystem : MonoBehaviour {
 
     void Update(){
         if (showing){
-            if (Input.GetKeyDown(KeyCode.Space)){
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button0)){
                 if(texts.Length > index + 1){
                     index++;
                     textField.text = texts[index];

@@ -25,8 +25,22 @@ public class EntityController : MonoBehaviour {
     public SkeletonAnimation skeletonAnimation;
     public string walkAnimation;
     public float walkTimescaleFactor;
+    public string runAnimation;
+    public float runTimescaleFactor;
     public string idleAnimation;
     public float idleTimeScale;
+    public string jumpAnimation;
+    public float jumpTimeScale;
+    public string fallAnimation;
+    public float fallTimeScale;
+    public string landingAnimation;
+    public float landingTimeScale;
+    public string colorAnimation;
+    public float colorTimeScale;
+    public string pushAnimation;
+    public string pushWalkAnimation;
+    public float pushWalkTimescaleFactor;
+    bool isPushing;
     string currentAnimation;
 
     void Awake() {
@@ -77,6 +91,10 @@ public class EntityController : MonoBehaviour {
         }
 
         if (!jumping && shouldJump && Mathf.Abs(slope) <= maxJumpSlope) {
+            currentAnimation = jumpAnimation;
+            animationState.SetAnimation(0, jumpAnimation, false);
+            animationState.TimeScale = jumpTimeScale;
+
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             jumping = true;
         }
@@ -84,10 +102,20 @@ public class EntityController : MonoBehaviour {
 
         if(ray.distance > heightCorrectionBias) {
             jumping = true;
+
+            if(currentAnimation != jumpAnimation || animationState.GetCurrent(0) == null) {
+                currentAnimation = fallAnimation;
+                animationState.SetAnimation(0, fallAnimation, true);
+                animationState.TimeScale = fallTimeScale;
+            }
         }
 
         if(jumping && isGrounded && rb.velocity.y <= 0) {
             jumping = false;
+
+            currentAnimation = landingAnimation;
+            animationState.SetAnimation(0, landingAnimation, false);
+            animationState.TimeScale = landingTimeScale;
         }
 
         if(!isGrounded && !jumping) {
@@ -102,18 +130,35 @@ public class EntityController : MonoBehaviour {
             rb.velocity = new Vector2(Mathf.Sign(rb.velocity.x) * maxSpeed, rb.velocity.y);
         }
 
-        if((Mathf.Abs(dir) < 0.1 || jumping)) {
-            if (currentAnimation != idleAnimation) {
+        if((Mathf.Abs(dir) < 0.1 && (!jumping && (currentAnimation != landingAnimation || animationState.GetCurrent(0) == null)))) {
+            if (isPushing && currentAnimation != pushAnimation) {
+                currentAnimation = pushAnimation;
+                animationState.SetAnimation(0, pushAnimation, true);
+            } else if (!isPushing && currentAnimation != idleAnimation && (currentAnimation != colorAnimation || animationState.GetCurrent(0) == null)) {
                 currentAnimation = idleAnimation;
                 animationState.SetAnimation(0, idleAnimation, true);
             }
             animationState.TimeScale = idleTimeScale;
-        }else{
-            if(currentAnimation != walkAnimation) {
-                currentAnimation = walkAnimation;
-                animationState.SetAnimation(0, walkAnimation, true);
+        }else if(!jumping && (currentAnimation != landingAnimation || animationState.GetCurrent(0) == null)){
+            if (isPushing) {
+                if (currentAnimation != pushWalkAnimation) {
+                    currentAnimation = pushWalkAnimation;
+                    animationState.SetAnimation(0, pushWalkAnimation, true);
+                }
+                animationState.TimeScale = Mathf.Abs(rb.velocity.x) * pushWalkTimescaleFactor;
+            }else if(Mathf.Abs(dir) < 0.6) {
+                if (currentAnimation != walkAnimation) {
+                    currentAnimation = walkAnimation;
+                    animationState.SetAnimation(0, walkAnimation, true);
+                }
+                animationState.TimeScale = Mathf.Abs(rb.velocity.x) * walkTimescaleFactor;
+            } else {
+                if(currentAnimation != runAnimation) {
+                    currentAnimation = runAnimation;
+                    animationState.SetAnimation(0, runAnimation, true);
+                }
+                animationState.TimeScale = Mathf.Abs(rb.velocity.x) * runTimescaleFactor;
             }
-            animationState.TimeScale = Mathf.Abs(rb.velocity.x) * walkTimescaleFactor;
         }
 
         if (dir < - 0.1) {
@@ -125,5 +170,19 @@ public class EntityController : MonoBehaviour {
         if (!jumping && Mathf.Abs(dir) < 0.1) {
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
+    }
+
+    public void playColoringAnimation() {
+        currentAnimation = colorAnimation;
+        animationState.SetAnimation(0, colorAnimation, false);
+        animationState.TimeScale = colorTimeScale;
+    }
+
+    public void playPushAnimation() {
+        isPushing = true;
+    }
+
+    public void stopPushAnimation() {
+        isPushing = false;
     }
 }

@@ -19,6 +19,8 @@ public class ColorTrigger : MonoBehaviour {
             }
             fired = true;
             onTrigger.Invoke();
+            EntityController ec = distanceCheckTarget.GetComponent<EntityController>();
+            if (ec != null) ec.playColoringAnimation();
         }
     }
 }
