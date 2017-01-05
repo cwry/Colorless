@@ -13,7 +13,7 @@ public class SettingManager : MonoBehaviour {
     public Slider masterVolumeSlider;
     public Button applyButton;
 
-    //public AudioSource AudioSource;
+    public AudioSource AudioSource;
     public Resolution[] resolutions;
     private GameSettings gameSettings;
 
@@ -25,7 +25,7 @@ public class SettingManager : MonoBehaviour {
         textureQualityDropdown.onValueChanged.AddListener(delegate { OnTextureQualityChange(); });
         antialiasingDropdown.onValueChanged.AddListener(delegate { OnAntialiasingChange(); });
         vSyncDropdown.onValueChanged.AddListener(delegate { OnVSyncChange(); });
-        //masterVolumeSlider.onValueChanged.AddListener(delegate { OnMasterVolumeChange(); });
+        masterVolumeSlider.onValueChanged.AddListener(delegate { OnMasterVolumeChange(); });
         applyButton.onClick.AddListener(delegate { OnApplyButtonClick(); });
 
         resolutions = Screen.resolutions;
@@ -60,9 +60,9 @@ public class SettingManager : MonoBehaviour {
         QualitySettings.vSyncCount = gameSettings.vSync = vSyncDropdown.value;
     }
 
-    //public void OnMasterVolumeChange() {
-        //AudioSource.volume = gameSettings.masterVolume = masterVolumeSlider.value;
-    //}
+    public void OnMasterVolumeChange() {
+        AudioSource.volume = gameSettings.masterVolume = masterVolumeSlider.value;
+    }
 
     public void OnApplyButtonClick() {
         SaveSettings();

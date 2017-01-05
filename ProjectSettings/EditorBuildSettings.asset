@@ -10,4 +10,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Gate1.unity
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Corridor.unity
+=======
+    path: Assets/Scenes/Level00.unity
+>>>>>>> origin/master
