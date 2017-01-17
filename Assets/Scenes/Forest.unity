@@ -9864,7 +9864,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -8.2
+      value: -7.36
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9894,93 +9894,6 @@ Prefab:
         type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013497977606, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.43652388
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013497977606, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.43652388
-      objectReference: {fileID: 0}
-    - target: {fileID: 58000013661497106, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Radius
-      value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 58000013661497106, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: 1.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 61000013931526866, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -6.3654327
-      objectReference: {fileID: 0}
-    - target: {fileID: 61000013931526866, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: 2.933546
-      objectReference: {fileID: 0}
-    - target: {fileID: 61000013931526866, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 2.7070923
-      objectReference: {fileID: 0}
-    - target: {fileID: 61000013931526866, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.8608494
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: groundBias
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013497977606, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013497977606, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013497977606, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -6.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000011947739582, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 58000013661497106, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -6.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: landingTimeScale
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: fallTimeScale
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
-        type: 2}
-      propertyPath: maxSpeed
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
