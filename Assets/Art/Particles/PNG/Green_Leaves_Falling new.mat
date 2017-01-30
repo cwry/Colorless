@@ -6,11 +6,11 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 8X8_Clouds
-  m_Shader: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: Green_Leaves_Falling new
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: c61fcee76f01f784fb56d178be55edcd, type: 3}
+        m_Texture: {fileID: 2800000, guid: ccf9c082c82e7464eac47f56f6991aa2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -71,6 +71,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
+        name: PixelSnap
+      second: 0
+    - first:
         name: _BumpScale
       second: 1
     - first:
@@ -87,7 +90,7 @@ Material:
       second: 0.5
     - first:
         name: _InvFade
-      second: 1
+      second: 3
     - first:
         name: _Metallic
       second: 0
@@ -118,4 +121,4 @@ Material:
       second: {r: 0, g: 0, b: 0, a: 1}
     - first:
         name: _TintColor
-      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      second: {r: 0.30147058, g: 0.29703718, b: 0.29703718, a: 1}
