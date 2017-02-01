@@ -137,100 +137,6 @@ Material:
         name: _interpolationRange
       second: 1
     m_Colors: []
---- !u!1001 &20848801
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 410402978}
-    m_Modifications:
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: randomSeed
-      value: 2049727763
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: ShapeModule.angle
-      value: 45.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: ShapeModule.randomDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: ShapeModule.radius
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: InitialModule.maxNumParticles
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000012176714552, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-      propertyPath: m_Name
-      value: Light_bowl (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-        type: 2}
-      propertyPath: InitialModule.startSize.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &20848802 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059,
-    type: 2}
-  m_PrefabInternal: {fileID: 20848801}
 --- !u!4 &27148070 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010223849332, guid: be38a77bde440794698ce6588eae714e,
@@ -490,6 +396,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 47695506}
   - 212: {fileID: 47695507}
+  - 114: {fileID: 47695508}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -504,7 +411,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 47695505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 153.13353, y: 11.171438, z: 2.5}
+  m_LocalPosition: {x: 159.8, y: 11.171438, z: 2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -543,6 +450,19 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &47695508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 47695505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e28ffc730fefa43afb7201cb41c5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollFactor: -0.05
+  referencePosition: {fileID: 0}
 --- !u!1001 &52665458
 Prefab:
   m_ObjectHideFlags: 0
@@ -777,728 +697,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013718642866, guid: b45df9dd8add40546a58790fd3b5925b,
     type: 2}
   m_PrefabInternal: {fileID: 1364361150}
---- !u!1 &92236622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 92236623}
-  - 114: {fileID: 92236626}
-  - 114: {fileID: 92236624}
-  - 114: {fileID: 92236627}
-  - 114: {fileID: 92236625}
-  - 114: {fileID: 92236628}
-  - 114: {fileID: 92236629}
-  - 114: {fileID: 92236630}
-  m_Layer: 0
-  m_Name: FlowerTrigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &92236623
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 49.319992, y: -0.46999997, z: -0.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1758738630}
-  m_RootOrder: 0
---- !u!114 &92236624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: StartFoxPath
-  once: 1
-  onTrigger:
-    inspectorListHeight: 83
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 192695106}
-        memberName: move
-        memberType: 8
-        arguments:
-        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 2070735909}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: iTweenPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 509370062}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 8
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 92236627}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &92236625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: EatFlowerDelay
-  once: 1
-  onTrigger:
-    inspectorListHeight: 83
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 997366596}
-        memberName: delayTrigger
-        memberType: 8
-        arguments:
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 92236628}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &92236626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e18dfb86c107fd40ba3230c01b6a86b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanceCheckTarget: {fileID: 284483190}
-  maxDistance: 1
-  once: 1
-  onTrigger:
-    inspectorListHeight: 173
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 974729607}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 92236624}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 410402982}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 36
-          isDynamic: 0
-        target: {fileID: 881156085}
-        memberName: Stop
-        memberType: 8
-        arguments: []
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &92236627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: FoxPath2
-  once: 1
-  onTrigger:
-    inspectorListHeight: 128
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 2
-          isDynamic: 0
-        target: {fileID: 1138779935}
-        memberName: flipX
-        memberType: 16
-        arguments:
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 192695106}
-        memberName: move
-        memberType: 8
-        arguments:
-        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 2070735909}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: iTweenPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 836720447}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 8
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 92236625}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &92236628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: FoxPath3 & Fade Color & Remove Flower
-  once: 1
-  onTrigger:
-    inspectorListHeight: 173
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 192695106}
-        memberName: move
-        memberType: 8
-        arguments:
-        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 2070735909}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: iTweenPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 1326761369}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 8
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 92236629}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 0
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 410402977}
-        memberName: SetActive
-        memberType: 8
-        arguments:
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 974729607}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &92236629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: FoxPath4 & Remove Fox
-  once: 1
-  onTrigger:
-    inspectorListHeight: 128
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 2
-          isDynamic: 0
-        target: {fileID: 1138779935}
-        memberName: flipX
-        memberType: 16
-        arguments:
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 192695106}
-        memberName: move
-        memberType: 8
-        arguments:
-        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 2070735909}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: iTweenPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 1688676229}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 15
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 92236630}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &92236630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92236622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: Remove Fox
-  once: 1
-  onTrigger:
-    inspectorListHeight: 83
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 0
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 2070735909}
-        memberName: SetActive
-        memberType: 8
-        arguments:
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
 --- !u!4 &93288882 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000014089563620, guid: 25b4fdce72cf4d84ba8032881a09075e,
@@ -1517,7 +715,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 99373489}
-  - 114: {fileID: 99373493}
+  - 61: {fileID: 99373495}
+  - 114: {fileID: 99373494}
   - 114: {fileID: 99373492}
   - 212: {fileID: 99373491}
   - 114: {fileID: 99373490}
@@ -1535,7 +734,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 99373488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.36, y: 0.9, z: 0}
+  m_LocalPosition: {x: -12.2, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -1555,262 +754,9 @@ MonoBehaviour:
   nameForHumanReference: 
   once: 0
   onTrigger:
-    inspectorListHeight: 83
+    inspectorListHeight: 1433
     persistentCalls:
       calls:
-      - genericMenuData:
-          selectedComponent: 5
-          selectedMember: 17
-          isDynamic: 0
-        target: {fileID: 818907424}
-        memberName: show
-        memberType: 8
-        arguments: []
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!212 &99373491
-SpriteRenderer:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99373488}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 2065591540}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!114 &99373492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99373488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameForHumanReference: Dialogue
-  once: 1
-  onTrigger:
-    inspectorListHeight: 173
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 5
-          selectedMember: 17
-          isDynamic: 0
-        target: {fileID: 997366594}
-        memberName: swapAnimation
-        memberType: 8
-        arguments:
-        - typeName: Spine.Unity.SkeletonAnimation, Assembly-CSharp, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 1258627257}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 2
-          objectArgument: {fileID: 0}
-          stringArgument: Idle
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: RequireReceiver
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 1
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: RequireReceiver
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: RequireReceiver
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 0
-          selectedMember: 11
-          isDynamic: 0
-        target: {fileID: 286646653}
-        memberName: SetActive
-        memberType: 8
-        arguments:
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 997366596}
-        memberName: delayTrigger
-        memberType: 8
-        arguments:
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 99373490}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
---- !u!114 &99373493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99373488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e18dfb86c107fd40ba3230c01b6a86b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanceCheckTarget: {fileID: 284483190}
-  maxDistance: 2
-  once: 1
-  onTrigger:
-    inspectorListHeight: 1523
-    persistentCalls:
-      calls:
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 582272285}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 99373492}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 2
-          selectedMember: 36
-          isDynamic: 0
-        target: {fileID: 1761387376}
-        memberName: Stop
-        memberType: 8
-        arguments: []
-        isDynamic: 0
-        isCallEnabled: 1
       - genericMenuData:
           selectedComponent: 4
           selectedMember: 9
@@ -1956,62 +902,6 @@ MonoBehaviour:
         - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
           supportedType: 1
-          objectArgument: {fileID: 99373492}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 2048323728}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 1
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
           objectArgument: {fileID: 621765101}
           stringArgument: 
           intArgument: 0
@@ -2096,6 +986,62 @@ MonoBehaviour:
           selectedMember: 9
           isDynamic: 0
         target: {fileID: 1678352946}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 2048323728}
         memberName: animateVS
         memberType: 8
         arguments:
@@ -2443,6 +1389,260 @@ MonoBehaviour:
         arguments: []
         isDynamic: 0
         isCallEnabled: 1
+--- !u!212 &99373491
+SpriteRenderer:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99373488}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2065591540}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!114 &99373492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99373488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameForHumanReference: Dialogue
+  once: 1
+  onTrigger:
+    inspectorListHeight: 173
+    persistentCalls:
+      calls:
+      - genericMenuData:
+          selectedComponent: 5
+          selectedMember: 17
+          isDynamic: 0
+        target: {fileID: 997366594}
+        memberName: swapAnimation
+        memberType: 8
+        arguments:
+        - typeName: Spine.Unity.SkeletonAnimation, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 1258627257}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 2
+          objectArgument: {fileID: 0}
+          stringArgument: Idle
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: RequireReceiver
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 1
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: RequireReceiver
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: RequireReceiver
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 5
+          selectedMember: 17
+          isDynamic: 0
+        target: {fileID: 818907424}
+        memberName: show
+        memberType: 8
+        arguments: []
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 2
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 997366596}
+        memberName: delayTrigger
+        memberType: 8
+        arguments:
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 99373490}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0.1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+--- !u!114 &99373494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99373488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ee9aa319eadf5409a7e7b09fc0074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameForHumanReference: 
+  once: 0
+  tagFilter: Player
+  onTriggerEnter:
+    inspectorListHeight: 128
+    persistentCalls:
+      calls:
+      - genericMenuData:
+          selectedComponent: 2
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 582272285}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 99373492}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 2
+          selectedMember: 36
+          isDynamic: 0
+        target: {fileID: 1761387376}
+        memberName: Stop
+        memberType: 8
+        arguments: []
+        isDynamic: 0
+        isCallEnabled: 1
+  onTriggerExit:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+  onTriggerStay:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+--- !u!61 &99373495
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99373488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 5.8663626, y: -0.725057}
+  serializedVersion: 2
+  m_Size: {x: 1.8350449, y: 2.4501133}
 --- !u!21 &108614640
 Material:
   serializedVersion: 6
@@ -3228,7 +2428,7 @@ Transform:
   - {fileID: 315234112}
   - {fileID: 1798424038}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 10
 --- !u!1001 &223376014
 Prefab:
   m_ObjectHideFlags: 0
@@ -3377,7 +2577,7 @@ Transform:
   - {fileID: 1165585858}
   - {fileID: 2037133044}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 8
 --- !u!114 &259362743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3436,6 +2636,78 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013020070562, guid: eb89f0dc22dd4a847b41748b6d586404,
     type: 2}
   m_PrefabInternal: {fileID: 38923133}
+--- !u!1 &270098471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013960307386, guid: a70aa938806886942aa3fac767664266,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 270098472}
+  - 222: {fileID: 270098474}
+  - 114: {fileID: 270098473}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &270098472
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224000013913457190, guid: a70aa938806886942aa3fac767664266,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270098471}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000216, y: 1.0000216, z: 1.0000216}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 818907423}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00010681152, y: 0.00004784763}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &270098473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114000010837869668, guid: a70aa938806886942aa3fac767664266,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270098471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.709}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &270098474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222000014068000672, guid: a70aa938806886942aa3fac767664266,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270098471}
 --- !u!1001 &270304621
 Prefab:
   m_ObjectHideFlags: 0
@@ -3515,49 +2787,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d,
     type: 2}
   m_PrefabInternal: {fileID: 1888825974}
---- !u!1 &286646653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 286646654}
-  - 61: {fileID: 286646655}
-  m_Layer: 0
-  m_Name: GrandmaBlock
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &286646654
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 286646653}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 582272286}
-  m_RootOrder: 1
---- !u!61 &286646655
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 286646653}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.08937836, y: 5.5399055}
-  serializedVersion: 2
-  m_Size: {x: 4.9315557, y: 12.079815}
 --- !u!1001 &295072501
 Prefab:
   m_ObjectHideFlags: 0
@@ -3839,11 +3068,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000010548785080, guid: 8ed9a79ed79d326419edce5bee40fa8b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.93
+      value: 4.71
       objectReference: {fileID: 0}
     - target: {fileID: 4000010548785080, guid: 8ed9a79ed79d326419edce5bee40fa8b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 4000010548785080, guid: 8ed9a79ed79d326419edce5bee40fa8b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3898,6 +3127,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ed9a79ed79d326419edce5bee40fa8b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &325255716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 325255717}
+  - 114: {fileID: 325255718}
+  m_Layer: 0
+  m_Name: TransformNode1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325255717
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 325255716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 225.08, y: -3.42, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2090905500}
+  m_RootOrder: 4
+--- !u!114 &325255718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 325255716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c30032242a88dd4fbfd6b8010c35e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &327953352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,7 +3466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 378839043}
   mesh: {fileID: 0}
@@ -4230,105 +3499,7 @@ Transform:
   - {fileID: 742418088}
   - {fileID: 2056124321}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
---- !u!1 &410402977
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 410402978}
-  - 212: {fileID: 410402983}
-  - 114: {fileID: 410402984}
-  - 114: {fileID: 410402982}
-  m_Layer: 0
-  m_Name: Flower
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &410402978
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410402977}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 49.319992, y: -0.46999997, z: -0.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 20848802}
-  m_Father: {fileID: 1758738630}
-  m_RootOrder: 1
---- !u!114 &410402982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410402977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationSpeed: 0.5
-  fadeDelay: 6
-  sprite: {fileID: 410402984}
-  mesh: {fileID: 0}
---- !u!212 &410402983
-SpriteRenderer:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410402977}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 7117163}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a2bee647832fbff4a93c6b6b6f434744, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!114 &410402984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410402977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0437ded9df4563c43a61557e97a8e642, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _mainTexture: {fileID: 21300000, guid: a2bee647832fbff4a93c6b6b6f434744, type: 3}
-  _grayScaleTexture: {fileID: 0}
-  _animationMaskTexture: {fileID: 0}
-  _flipX: 0
-  _flipY: 0
-  _interpolationRange: 1
-  _animationState: 0
+  m_RootOrder: 14
 --- !u!114 &433580561 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114000010110798246, guid: 7dc6843c9de18514f80bc56eec235de5,
@@ -4396,12 +3567,74 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 13
 --- !u!4 &452347208 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013718642866, guid: b45df9dd8add40546a58790fd3b5925b,
     type: 2}
   m_PrefabInternal: {fileID: 1562908804}
+--- !u!1 &452863649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452863650}
+  - 212: {fileID: 452863651}
+  m_Layer: 0
+  m_Name: 2_solo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452863650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452863649}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.600006, y: 11.171438, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1731803095}
+  m_RootOrder: 7
+--- !u!212 &452863651
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452863649}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1a33ecf35813176419a85129178a28c8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!21 &474978075
 Material:
   serializedVersion: 6
@@ -4568,7 +3801,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1758738630}
-  m_RootOrder: 5
+  m_RootOrder: 3
 --- !u!114 &509370062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4589,6 +3822,42 @@ MonoBehaviour:
   initialized: 1
   initialName: New Path 1
   pathVisible: 1
+--- !u!1 &513886158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 513886159}
+  m_Layer: 0
+  m_Name: LeavesStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513886159
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513886158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1646875397}
+  - {fileID: 1131049497}
+  - {fileID: 1005503262}
+  - {fileID: 965237850}
+  - {fileID: 1177978092}
+  - {fileID: 1756135043}
+  - {fileID: 658529783}
+  - {fileID: 772164540}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &518133949
 GameObject:
   m_ObjectHideFlags: 0
@@ -5196,6 +4465,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 576852757}
   - 212: {fileID: 576852756}
+  - 114: {fileID: 576852758}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -5249,6 +4519,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1731803095}
   m_RootOrder: 0
+--- !u!114 &576852758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576852755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e28ffc730fefa43afb7201cb41c5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollFactor: -0.02
+  referencePosition: {fileID: 0}
 --- !u!114 &582272285 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114000014175253834, guid: 8ed9a79ed79d326419edce5bee40fa8b,
@@ -5302,7 +4585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 586897582}
   mesh: {fileID: 0}
@@ -6341,6 +5624,90 @@ Prefab:
       propertyPath: textField
       value: 
       objectReference: {fileID: 1704335209}
+    - target: {fileID: 23000011782138790, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012744281500, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00024414062
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013128750420, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00024414062
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010820196674, guid: a70aa938806886942aa3fac767664266, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013960307386, guid: a70aa938806886942aa3fac767664266, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010837869668, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9fa88e5f6ccafc147856d5b9e8106b76,
+        type: 3}
+    - target: {fileID: 224000010429570836, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010429570836, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: -171
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010429570836, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 146
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010429570836, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010429570836, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011307275874, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011307275874, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011307275874, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 612
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011307275874, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010429570836, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013913457190, guid: a70aa938806886942aa3fac767664266,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a70aa938806886942aa3fac767664266, type: 2}
   m_IsPrefabParent: 0
@@ -6409,7 +5776,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011319127726, guid: 9d3073074a95dc848baa81c2076e6878, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 61000012272303564, guid: 9d3073074a95dc848baa81c2076e6878,
         type: 2}
@@ -6517,7 +5884,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 658529782}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6527,8 +5894,8 @@ Transform:
   - {fileID: 1133373833}
   - {fileID: 93288882}
   - {fileID: 27148070}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 6
 --- !u!1001 &666740865
 Prefab:
   m_ObjectHideFlags: 0
@@ -6778,7 +6145,7 @@ Transform:
   - {fileID: 1697867309}
   - {fileID: 1029353424}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 18
 --- !u!114 &703177481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7175,7 +6542,7 @@ Transform:
   m_Children:
   - {fileID: 518133950}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 16
 --- !u!1 &742418087
 GameObject:
   m_ObjectHideFlags: 0
@@ -7435,7 +6802,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.43
+      value: 4.28
       objectReference: {fileID: 0}
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_LocalPosition.y
@@ -7494,7 +6861,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 772164539}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7504,8 +6871,8 @@ Transform:
   - {fileID: 1799988790}
   - {fileID: 949553528}
   - {fileID: 870475229}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 7
 --- !u!4 &778946646 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059,
@@ -7770,6 +7137,82 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be38a77bde440794698ce6588eae714e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &813062544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 813062545}
+  - 212: {fileID: 813062547}
+  - 114: {fileID: 813062546}
+  m_Layer: 0
+  m_Name: 4 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813062545
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813062544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.7, y: 9.85, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1731803095}
+  m_RootOrder: 5
+--- !u!114 &813062546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813062544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e28ffc730fefa43afb7201cb41c5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollFactor: -0.05
+  referencePosition: {fileID: 0}
+--- !u!212 &813062547
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813062544}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d689b798caec2164e9f4ab02bf71a2c2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!224 &818907423 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224000011829248070, guid: a70aa938806886942aa3fac767664266,
@@ -7829,7 +7272,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1758738630}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!1001 &858658545
 Prefab:
   m_ObjectHideFlags: 0
@@ -8115,15 +7558,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 871072100}
   mesh: {fileID: 0}
---- !u!198 &881156085 stripped
-ParticleSystem:
-  m_PrefabParentObject: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
-    type: 2}
-  m_PrefabInternal: {fileID: 20848801}
 --- !u!1 &889594319
 GameObject:
   m_ObjectHideFlags: 0
@@ -8166,7 +7604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 889594323}
   mesh: {fileID: 0}
@@ -8372,7 +7810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 949103266}
   mesh: {fileID: 0}
@@ -8451,11 +7889,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012054010370, guid: 6e7943184ba41634cb174df515a6ce0d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.6
+      value: 4.33
       objectReference: {fileID: 0}
     - target: {fileID: 4000012054010370, guid: 6e7943184ba41634cb174df515a6ce0d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.73
+      value: 6.42
       objectReference: {fileID: 0}
     - target: {fileID: 4000012054010370, guid: 6e7943184ba41634cb174df515a6ce0d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -8570,6 +8008,30 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012281270302, guid: 6e7943184ba41634cb174df515a6ce0d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000011390654466, guid: 6e7943184ba41634cb174df515a6ce0d,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.12776375
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000011390654466, guid: 6e7943184ba41634cb174df515a6ce0d,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 1.2500007
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000011390654466, guid: 6e7943184ba41634cb174df515a6ce0d,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1.8338242
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000011390654466, guid: 6e7943184ba41634cb174df515a6ce0d,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.497467
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000010897335434, guid: 6e7943184ba41634cb174df515a6ce0d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6e7943184ba41634cb174df515a6ce0d, type: 2}
@@ -8595,7 +8057,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 965237849}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8605,8 +8067,8 @@ Transform:
   - {fileID: 1642575799}
   - {fileID: 1429878722}
   - {fileID: 1842941076}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 3
 --- !u!1 &974729605
 GameObject:
   m_ObjectHideFlags: 0
@@ -8938,7 +8400,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005503261}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8948,8 +8410,8 @@ Transform:
   - {fileID: 63317093}
   - {fileID: 1335637015}
   - {fileID: 1743296978}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 2
 --- !u!1001 &1018588978
 Prefab:
   m_ObjectHideFlags: 0
@@ -9164,6 +8626,53 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3bd995eaf10264e49b6fc0e68fc11365, type: 2}
   m_IsPrefabParent: 0
+--- !u!21 &1019686993
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Custom/ColorlessAnimation
+  m_Shader: {fileID: 4800000, guid: 987898f3f2292a440a6c8d888356cbb9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _GrayTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _animFallback
+      second: 1
+    - first:
+        name: _animState
+      second: 0
+    - first:
+        name: _grayFallback
+      second: 1
+    - first:
+        name: _interpolationRange
+      second: 0.1
+    m_Colors: []
 --- !u!1 &1024474783
 GameObject:
   m_ObjectHideFlags: 0
@@ -9222,7 +8731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1029353423}
   mesh: {fileID: 0}
@@ -9465,8 +8974,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -210.07771, y: 11.061115}
-      - {x: -204.61363, y: -1.5124662}
-      - {x: -202.95212, y: -3.6759434}
+      - {x: -202.57988, y: 0.7149918}
+      - {x: -202.51633, y: -3.918058}
       - {x: -199.55356, y: -6.4515843}
       - {x: -195.9485, y: -7.8233747}
       - {x: -190.3804, y: -8.758946}
@@ -9502,12 +9011,9 @@ PolygonCollider2D:
       - {x: -7.0956383, y: -8.949642}
       - {x: 0.24448442, y: -9.154681}
       - {x: 4.729759, y: -9.1797}
-      - {x: 9.215034, y: -9.204719}
-      - {x: 9.855625, y: -24.80803}
-      - {x: 17.095947, y: -24.803455}
-      - {x: 16.515736, y: -10.240808}
-      - {x: 14.992805, y: -9.970458}
-      - {x: 15.0786915, y: -9.260478}
+      - {x: 9.719048, y: -9.629152}
+      - {x: 14.8071165, y: -9.38758}
+      - {x: 16.396162, y: -9.034778}
       - {x: 30.842022, y: -8.763734}
       - {x: 40.915222, y: -8.433881}
       - {x: 42.80825, y: -8.139303}
@@ -9613,7 +9119,7 @@ Transform:
   - {fileID: 117716259}
   - {fileID: 1277666181}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 7
 --- !u!114 &1111415145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9921,7 +9427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1129041752}
   mesh: {fileID: 0}
@@ -9946,7 +9452,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1131049496}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9956,8 +9462,8 @@ Transform:
   - {fileID: 2067938431}
   - {fileID: 1353222306}
   - {fileID: 1908251414}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 1
 --- !u!4 &1133373833 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013435572802, guid: 3bd995eaf10264e49b6fc0e68fc11365,
@@ -10184,7 +9690,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 17
 --- !u!4 &1145113527 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010223849332, guid: be38a77bde440794698ce6588eae714e,
@@ -10568,7 +10074,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177978091}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10578,8 +10084,8 @@ Transform:
   - {fileID: 1422924458}
   - {fileID: 1422908208}
   - {fileID: 494213362}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 4
 --- !u!1001 &1180455082
 Prefab:
   m_ObjectHideFlags: 0
@@ -10705,6 +10211,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1187887063}
   - 212: {fileID: 1187887064}
+  - 114: {fileID: 1187887065}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -10758,6 +10265,19 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1187887065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1187887062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e28ffc730fefa43afb7201cb41c5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollFactor: -0.02
+  referencePosition: {fileID: 0}
 --- !u!21 &1193408159
 Material:
   serializedVersion: 6
@@ -10904,7 +10424,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_LocalScale.x
@@ -10960,11 +10480,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 2.23
       objectReference: {fileID: 0}
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.06
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
       propertyPath: m_LocalPosition.z
@@ -11001,7 +10521,21 @@ Prefab:
     - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
         type: 2}
       propertyPath: randomSeed
-      value: -784947695
+      value: -1325673484
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
+        type: 2}
+      propertyPath: ShapeModule.angle
+      value: 24.659185
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000012862021094, guid: 448a624dbfa4b6748b9c1acf03587059,
+        type: 2}
+      propertyPath: ShapeModule.radius
+      value: 1.07
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 448a624dbfa4b6748b9c1acf03587059, type: 2}
@@ -11538,7 +11072,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1758738630}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!114 &1326761369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12143,10 +11677,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1404544003}
   mesh: {fileID: 0}
+--- !u!1 &1417951340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1417951341}
+  - 212: {fileID: 1417951343}
+  - 114: {fileID: 1417951342}
+  m_Layer: 0
+  m_Name: 4 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417951341
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417951340}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 340.3, y: 11.171438, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1731803095}
+  m_RootOrder: 6
+--- !u!114 &1417951342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417951340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e28ffc730fefa43afb7201cb41c5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollFactor: -0.01
+  referencePosition: {fileID: 0}
+--- !u!212 &1417951343
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417951340}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d689b798caec2164e9f4ab02bf71a2c2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!4 &1422908208 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000014089563620, guid: 25b4fdce72cf4d84ba8032881a09075e,
@@ -12353,6 +11963,325 @@ GameObject:
   m_PrefabParentObject: {fileID: 1000012176714552, guid: 448a624dbfa4b6748b9c1acf03587059,
     type: 2}
   m_PrefabInternal: {fileID: 992687038}
+--- !u!1 &1462623599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1462623600}
+  - 114: {fileID: 1462623601}
+  - 61: {fileID: 1462623603}
+  - 114: {fileID: 1462623602}
+  - 114: {fileID: 1462623604}
+  m_Layer: 0
+  m_Name: EndTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1462623600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462623599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 219.61, y: -6.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2090905500}
+  m_RootOrder: 3
+--- !u!114 &1462623601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462623599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: Path to Castle
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 220.10286, y: -6.2809896, z: 0}
+  - {x: 224.60724, y: -3.1998167, z: 0}
+  - {x: 229.64432, y: -1.6556835, z: 0}
+  - {x: 224.87628, y: -1.2833385, z: 0}
+  - {x: 228.1795, y: -0.4967041, z: 0}
+  - {x: 226.10898, y: 0, z: 0}
+  - {x: 228.52705, y: 0.7385483, z: 0}
+  - {x: 227.51863, y: 1.0410028, z: 0}
+  - {x: 228.32205, y: 2.2968254, z: 0}
+  nodeCount: 9
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 1
+--- !u!114 &1462623602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462623599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ee9aa319eadf5409a7e7b09fc0074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameForHumanReference: 
+  once: 0
+  tagFilter: Player
+  onTriggerEnter:
+    inspectorListHeight: 173
+    persistentCalls:
+      calls:
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 11
+          isDynamic: 0
+        target: {fileID: 192695106}
+        memberName: move
+        memberType: 8
+        arguments:
+        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 284483190}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: iTweenPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 1462623601}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 5
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 6
+          selectedMember: 17
+          isDynamic: 0
+        target: {fileID: 1893805375}
+        memberName: tween
+        memberType: 8
+        arguments:
+        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 284483190}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 325255717}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 5
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 0
+      - genericMenuData:
+          selectedComponent: 0
+          selectedMember: 11
+          isDynamic: 0
+        target: {fileID: 1613769018}
+        memberName: SetActive
+        memberType: 8
+        arguments:
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 1
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+  onTriggerExit:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+  onTriggerStay:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+--- !u!61 &1462623603
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462623599}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!114 &1462623604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462623599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29e74e372f30764abf258454074a455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameForHumanReference: 
+  once: 0
+  onTrigger:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls:
+      - genericMenuData:
+          selectedComponent: 6
+          selectedMember: 17
+          isDynamic: 0
+        target: {fileID: 1893805375}
+        memberName: tween
+        memberType: 8
+        arguments:
+        - typeName: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 284483190}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 325255717}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 2
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
 --- !u!4 &1470092905 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013435572802, guid: 3bd995eaf10264e49b6fc0e68fc11365,
@@ -12461,7 +12390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1483745652}
   mesh: {fileID: 0}
@@ -12817,6 +12746,103 @@ Transform:
   m_PrefabParentObject: {fileID: 4000012271980912, guid: 448a624dbfa4b6748b9c1acf03587059,
     type: 2}
   m_PrefabInternal: {fileID: 1527054230}
+--- !u!1 &1552007316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1552007320}
+  - 114: {fileID: 1552007319}
+  - 212: {fileID: 1552007318}
+  - 114: {fileID: 1552007317}
+  m_Layer: 0
+  m_Name: Flower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1552007317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552007316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationSpeed: 0.3
+  fadeDelay: 0
+  sprite: {fileID: 1552007319}
+  mesh: {fileID: 0}
+--- !u!212 &1552007318
+SpriteRenderer:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552007316}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 1019686993}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a2bee647832fbff4a93c6b6b6f434744, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!114 &1552007319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552007316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0437ded9df4563c43a61557e97a8e642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainTexture: {fileID: 21300000, guid: a2bee647832fbff4a93c6b6b6f434744, type: 3}
+  _grayScaleTexture: {fileID: 0}
+  _animationMaskTexture: {fileID: 0}
+  _flipX: 0
+  _flipY: 0
+  _interpolationRange: 0.1
+  _animationState: 0
+--- !u!4 &1552007320
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552007316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -43.1, y: -8.33, z: -0.5}
+  m_LocalScale: {x: 1.45, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
 --- !u!21 &1552369424
 Material:
   serializedVersion: 6
@@ -13710,7 +13736,7 @@ Material:
       second: 0
     - first:
         name: _interpolationRange
-      second: 0.1
+      second: 0.05
     m_Colors: []
 --- !u!1 &1612470566
 GameObject:
@@ -13746,6 +13772,71 @@ Transform:
   - {fileID: 2035516891}
   m_Father: {fileID: 315234112}
   m_RootOrder: 0
+--- !u!1 &1613769018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1613769019}
+  - 60: {fileID: 1613769021}
+  - 114: {fileID: 1613769020}
+  m_Layer: 0
+  m_Name: CastlePath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1613769019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613769018}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 242.38, y: -6.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2090905500}
+  m_RootOrder: 5
+--- !u!114 &1613769020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613769018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec755a03996fe14085e75ad2261a75f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &1613769021
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613769018}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -17.675034, y: 1.1816564}
+      - {x: -15.650223, y: 2.1743536}
+      - {x: -13.353683, y: 3.212577}
+      - {x: -12.315308, y: 3.7456875}
+      - {x: -18.21312, y: 4.227208}
+      - {x: -12.787445, y: 4.988026}
+      - {x: -17.554886, y: 5.307919}
+      - {x: -13.117081, y: 5.999147}
+      - {x: -10.565262, y: 2.773479}
+      - {x: -22.001022, y: -1.0529218}
 --- !u!1 &1621055836
 GameObject:
   m_ObjectHideFlags: 0
@@ -14055,7 +14146,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1646875396}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14065,8 +14156,8 @@ Transform:
   - {fileID: 1470092905}
   - {fileID: 549445065}
   - {fileID: 149041908}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 0
 --- !u!1001 &1652166725
 Prefab:
   m_ObjectHideFlags: 0
@@ -14599,7 +14690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1678352948}
   mesh: {fileID: 0}
@@ -14792,7 +14883,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1758738630}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!114 &1688676229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14856,7 +14947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1697867312}
   mesh: {fileID: 0}
@@ -15010,7 +15101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 1707198006}
   mesh: {fileID: 0}
@@ -15055,8 +15146,11 @@ Transform:
   - {fileID: 1369255003}
   - {fileID: 47695506}
   - {fileID: 327953353}
+  - {fileID: 813062545}
+  - {fileID: 1417951341}
+  - {fileID: 452863650}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 20
 --- !u!4 &1743296978 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010223849332, guid: be38a77bde440794698ce6588eae714e,
@@ -15094,7 +15188,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756135042}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15104,8 +15198,8 @@ Transform:
   - {fileID: 268082241}
   - {fileID: 520239216}
   - {fileID: 1145113527}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 513886159}
+  m_RootOrder: 5
 --- !u!1 &1758738629
 GameObject:
   m_ObjectHideFlags: 0
@@ -15132,8 +15226,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 92236623}
-  - {fileID: 410402978}
   - {fileID: 1688676228}
   - {fileID: 1326761368}
   - {fileID: 836720448}
@@ -15216,7 +15308,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1767857659}
-  - 114: {fileID: 1767857660}
+  - 61: {fileID: 1767857662}
+  - 114: {fileID: 1767857661}
   m_Layer: 0
   m_Name: MeadowTrigger
   m_TagString: Untagged
@@ -15231,14 +15324,14 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1767857658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1, y: -9.38, z: 0}
+  m_LocalPosition: {x: -5.29, y: -9.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 778946646}
   m_Father: {fileID: 378839041}
   m_RootOrder: 0
---- !u!114 &1767857660
+--- !u!114 &1767857661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -15246,14 +15339,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767857658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e18dfb86c107fd40ba3230c01b6a86b, type: 3}
+  m_Script: {fileID: 11500000, guid: 55ee9aa319eadf5409a7e7b09fc0074c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceCheckTarget: {fileID: 284483190}
-  maxDistance: 2
+  nameForHumanReference: 
   once: 0
-  onTrigger:
-    inspectorListHeight: 398
+  tagFilter: Player
+  onTriggerEnter:
+    inspectorListHeight: 353
     persistentCalls:
       calls:
       - genericMenuData:
@@ -15269,7 +15362,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 1
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -15325,119 +15418,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 1483745653}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 3
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 5
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-          supportedType: 1
-          objectArgument: {fileID: 621765101}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 0
-          boolArgument: 0
-          colorArgument: {r: 0, g: 0, b: 0, a: 0}
-          vector2Argument: {x: 0, y: 0}
-          vector3Argument: {x: 0, y: 0, z: 0}
-          enumArgument: 
-        isDynamic: 0
-        isCallEnabled: 1
-      - genericMenuData:
-          selectedComponent: 4
-          selectedMember: 9
-          isDynamic: 0
-        target: {fileID: 871072101}
-        memberName: animateVS
-        memberType: 8
-        arguments:
-        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          supportedType: 4
-          objectArgument: {fileID: 0}
-          stringArgument: 
-          intArgument: 0
-          floatArgument: 3
+          floatArgument: 1
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -15493,7 +15474,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 1
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -15658,6 +15639,84 @@ MonoBehaviour:
         arguments: []
         isDynamic: 0
         isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1552007317}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+  onTriggerExit:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+  onTriggerStay:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+--- !u!61 &1767857662
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767857658}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.29269946, y: 1.0793247}
+  serializedVersion: 2
+  m_Size: {x: 4.2196894, y: 3.1586494}
 --- !u!1 &1770143149
 GameObject:
   m_ObjectHideFlags: 0
@@ -16091,7 +16150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012927270910, guid: b2ec18b241ac8634c8ab3068c2a1bec3, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 20000013345607076, guid: b2ec18b241ac8634c8ab3068c2a1bec3,
         type: 2}
@@ -16635,11 +16694,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -186.1
+      value: -192.7
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -8.1
+      value: -6.9
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -16663,7 +16722,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 33000011015637052, guid: edd1e14b99870014bb77cf9fe47ef42d,
         type: 2}
@@ -16673,7 +16732,12 @@ Prefab:
     - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
         type: 2}
       propertyPath: maxSpeed
-      value: 5.5
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010360209000, guid: edd1e14b99870014bb77cf9fe47ef42d,
+        type: 2}
+      propertyPath: runTimescaleFactor
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
@@ -16772,6 +16836,103 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1893805374}
   m_Script: {fileID: 11500000, guid: 5c30032242a88dd4fbfd6b8010c35e1d, type: 3}
+--- !u!1 &1899323828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1899323832}
+  - 212: {fileID: 1899323831}
+  - 114: {fileID: 1899323830}
+  - 114: {fileID: 1899323829}
+  m_Layer: 0
+  m_Name: Flower (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1899323829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899323828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationSpeed: 0.5
+  fadeDelay: 0
+  sprite: {fileID: 1899323830}
+  mesh: {fileID: 0}
+--- !u!114 &1899323830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899323828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0437ded9df4563c43a61557e97a8e642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainTexture: {fileID: 21300000, guid: a2bee647832fbff4a93c6b6b6f434744, type: 3}
+  _grayScaleTexture: {fileID: 0}
+  _animationMaskTexture: {fileID: 0}
+  _flipX: 0
+  _flipY: 0
+  _interpolationRange: 1
+  _animationState: 0
+--- !u!212 &1899323831
+SpriteRenderer:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899323828}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 7117163}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a2bee647832fbff4a93c6b6b6f434744, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &1899323832
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899323828}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 94.89, y: -5.1, z: -0.5}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
 --- !u!4 &1908251414 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010223849332, guid: be38a77bde440794698ce6588eae714e,
@@ -16827,7 +16988,7 @@ Transform:
   - {fileID: 1431594872}
   - {fileID: 1624475757}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 9
 --- !u!1 &1939201410
 GameObject:
   m_ObjectHideFlags: 0
@@ -17216,7 +17377,7 @@ Transform:
   - {fileID: 2056054380}
   - {fileID: 1433606146}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 6
 --- !u!114 &1945669243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17291,7 +17452,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 15
 --- !u!1 &1950365527
 GameObject:
   m_ObjectHideFlags: 0
@@ -17522,6 +17683,53 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c26ddd56f8e3cf64bac13d78371c2b77, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1969234628
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013530290238, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 223000013934907424, guid: 59b1ce27ff3e72c44a10d548aaa8b152,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1107673593}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 59b1ce27ff3e72c44a10d548aaa8b152, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1973243409
 GameObject:
   m_ObjectHideFlags: 0
@@ -17554,7 +17762,7 @@ Transform:
   - {fileID: 1672420507}
   - {fileID: 41612641}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 11
 --- !u!114 &1973243411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18227,7 +18435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 2028838076}
   mesh: {fileID: 0}
@@ -18730,7 +18938,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 12
 --- !u!1 &2048323726
 GameObject:
   m_ObjectHideFlags: 0
@@ -18773,7 +18981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 2048323730}
   mesh: {fileID: 0}
@@ -19006,7 +19214,7 @@ Transform:
   m_Children:
   - {fileID: 1138779934}
   m_Father: {fileID: 1758738630}
-  m_RootOrder: 6
+  m_RootOrder: 4
 --- !u!1001 &2076667828
 Prefab:
   m_ObjectHideFlags: 0
@@ -19184,8 +19392,11 @@ Transform:
   - {fileID: 791355244}
   - {fileID: 800291227}
   - {fileID: 2078177813}
+  - {fileID: 1462623600}
+  - {fileID: 325255717}
+  - {fileID: 1613769019}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 19
 --- !u!1 &2094534957
 GameObject:
   m_ObjectHideFlags: 0
@@ -19280,7 +19491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 2094534960}
   mesh: {fileID: 0}
@@ -19326,7 +19537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852b62ec057199c44af4bf9e17801948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.3
   fadeDelay: 0
   sprite: {fileID: 2101808589}
   mesh: {fileID: 0}
@@ -19379,7 +19590,7 @@ MonoBehaviour:
   _animationMaskTexture: {fileID: 0}
   _flipX: 0
   _flipY: 0
-  _interpolationRange: 0.1
+  _interpolationRange: 0.05
   _animationState: 0
 --- !u!1 &2109409383
 GameObject:
@@ -19389,7 +19600,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2109409384}
+  - 61: {fileID: 2109409387}
   - 114: {fileID: 2109409385}
+  - 114: {fileID: 2109409386}
   m_Layer: 0
   m_Name: GreatTrigger
   m_TagString: Untagged
@@ -19404,7 +19617,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109409383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7400055, y: -5.59, z: 0}
+  m_LocalPosition: {x: -7.33, y: -5.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -19417,7 +19630,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109409383}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e18dfb86c107fd40ba3230c01b6a86b, type: 3}
   m_Name: 
@@ -19426,7 +19639,7 @@ MonoBehaviour:
   maxDistance: 2
   once: 0
   onTrigger:
-    inspectorListHeight: 308
+    inspectorListHeight: 353
     persistentCalls:
       calls:
       - genericMenuData:
@@ -19442,7 +19655,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 4
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -19498,7 +19711,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 4
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -19554,7 +19767,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 4
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -19610,7 +19823,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 4
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -19666,7 +19879,7 @@ MonoBehaviour:
           objectArgument: {fileID: 0}
           stringArgument: 
           intArgument: 0
-          floatArgument: 3
+          floatArgument: 4
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
           vector2Argument: {x: 0, y: 0}
@@ -19719,6 +19932,448 @@ MonoBehaviour:
         arguments: []
         isDynamic: 0
         isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1899323829}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 3
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: RequireReceiver
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: RequireReceiver
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: RequireReceiver
+        isDynamic: 0
+        isCallEnabled: 1
+--- !u!114 &2109409386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2109409383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ee9aa319eadf5409a7e7b09fc0074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameForHumanReference: 
+  once: 0
+  tagFilter: Player
+  onTriggerEnter:
+    inspectorListHeight: 353
+    persistentCalls:
+      calls:
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 2094534961}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1404544004}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1129041753}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1697867310}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1029353421}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 4
+          selectedMember: 9
+          isDynamic: 0
+        target: {fileID: 1899323829}
+        memberName: animateVS
+        memberType: 8
+        arguments:
+        - typeName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 4
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 1
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          supportedType: 5
+          objectArgument: {fileID: 0}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        - typeName: PristineTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          supportedType: 1
+          objectArgument: {fileID: 621765101}
+          stringArgument: 
+          intArgument: 0
+          floatArgument: 0
+          boolArgument: 0
+          colorArgument: {r: 0, g: 0, b: 0, a: 0}
+          vector2Argument: {x: 0, y: 0}
+          vector3Argument: {x: 0, y: 0, z: 0}
+          enumArgument: 
+        isDynamic: 0
+        isCallEnabled: 1
+      - genericMenuData:
+          selectedComponent: 2
+          selectedMember: 36
+          isDynamic: 0
+        target: {fileID: 1210918217}
+        memberName: Stop
+        memberType: 8
+        arguments: []
+        isDynamic: 0
+        isCallEnabled: 1
+  onTriggerExit:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+  onTriggerStay:
+    inspectorListHeight: 83
+    persistentCalls:
+      calls: []
+--- !u!61 &2109409387
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2109409383}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.17649078, y: 0.52949667}
+  serializedVersion: 2
+  m_Size: {x: 2.361567, y: 1.8572779}
 --- !u!1001 &2115216306
 Prefab:
   m_ObjectHideFlags: 0

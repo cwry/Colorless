@@ -43,6 +43,8 @@ public class EntityController : MonoBehaviour {
     bool isPushing;
     string currentAnimation;
 
+    bool shouldSuppressInput = false;
+
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<CircleCollider2D>();
@@ -55,6 +57,12 @@ public class EntityController : MonoBehaviour {
 
     void Update() {
         shouldJump = !Globals.suppressPlayInput && (shouldJump || Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.Joystick1Button0));
+        if(currentAnimation == colorAnimation && shouldSuppressInput) {
+            Globals.suppressPlayInput = true;
+        }else if(currentAnimation != colorAnimation && shouldSuppressInput) {
+            shouldSuppressInput = false;
+            Globals.suppressPlayInput = false;
+        }
     }
 
     void FixedUpdate() {
@@ -173,6 +181,7 @@ public class EntityController : MonoBehaviour {
     }
 
     public void playColoringAnimation() {
+        shouldSuppressInput = true;
         currentAnimation = colorAnimation;
         animationState.SetAnimation(0, colorAnimation, false);
         animationState.TimeScale = colorTimeScale;
