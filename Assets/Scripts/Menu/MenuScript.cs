@@ -1,25 +1,38 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class MenuScript : MonoBehaviour {
 
-    public Canvas quitMenu;
-    public Canvas optionMenu;
-    public Canvas startMenu;
-    public Canvas creditsMenu;
+    public GameObject quitMenu;
+    public GameObject optionMenu;
+    public GameObject startMenu;
+    public GameObject creditsMenu;
 
     public Button startText;
     public Button exitText;
+    public GameObject colorAnimation;
 
-	// Use this for initialization
-	void Start () {
-        quitMenu = quitMenu.GetComponent<Canvas>();
+    public EventSystem eventS;
+    private GameObject storedSelected;
+
+    public GameObject creditsBackText;
+    public GameObject controlsBackText;
+    public GameObject quitNoText;
+    public GameObject optionsBackText;
+    public GameObject sMB;
+
+    // Use this for initialization
+    void Start () {
+        storedSelected = eventS.firstSelectedGameObject;
         startText = startText.GetComponent<Button>();
         exitText = startText.GetComponent<Button>();
-        quitMenu.enabled = false;
-        optionMenu.enabled = false;
-        creditsMenu.enabled = false;
+        quitMenu.SetActive(false);
+        optionMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -29,23 +42,34 @@ public class MenuScript : MonoBehaviour {
         Application.LoadLevel(1);
     }
 
+    public void Update() {
+        if (eventS.currentSelectedGameObject != storedSelected) {
+            if (eventS.currentSelectedGameObject == null) {
+                eventS.SetSelectedGameObject(storedSelected);
+            } else storedSelected = eventS.currentSelectedGameObject;
+        }
+    }
 
     public void ExitPress() {
-        quitMenu.enabled = true;
+        quitMenu.SetActive(true);
         startText.enabled = false;
         exitText.enabled = false;
+        startMenu.SetActive(false);
+        eventS.SetSelectedGameObject(quitNoText);
     }
 
 
     public void NoPress() {
-        quitMenu.enabled = false;
+        quitMenu.SetActive(false);
         startText.enabled = true;
         exitText.enabled = true;
+        startMenu.SetActive(true);
+        eventS.SetSelectedGameObject(sMB);
     }
 
 
     public void StartLevel() {
-        StartCoroutine(LevelFade());
+        colorAnimation.GetComponent<ColorAnimationHandler>().animate(1, false, () => { StartCoroutine(LevelFade()); }, () => { });
     }
 
 
@@ -54,19 +78,23 @@ public class MenuScript : MonoBehaviour {
     }
 
     public void OptionPress() {
-        startMenu.enabled = false;
-        optionMenu.enabled = true;
+        startMenu.SetActive(false);
+        optionMenu.SetActive(true);
+        eventS.SetSelectedGameObject(optionsBackText);
     }
 
     public void CreditsPress() {
-        startMenu.enabled = false;
-        creditsMenu.enabled = true;
+        startMenu.SetActive(false);
+        creditsMenu.SetActive(true);
+        eventS.SetSelectedGameObject(creditsBackText);
     }
 
     public void BackPress() {
-        startMenu.enabled = true;
-        creditsMenu.enabled = false;
-        optionMenu.enabled = false;
+        startMenu.SetActive(true);
+        creditsMenu.SetActive(false);
+        optionMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        eventS.SetSelectedGameObject(sMB);
     }
 
 
