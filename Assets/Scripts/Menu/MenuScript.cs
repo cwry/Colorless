@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 public class MenuScript : MonoBehaviour {
@@ -39,7 +40,7 @@ public class MenuScript : MonoBehaviour {
     IEnumerator LevelFade() {
         float fadeTime = GameObject.Find("GameManager").GetComponent<SceneFade>().BeginFade(1);
         yield return new WaitForSeconds(fadeTime);
-        Application.LoadLevel(1);
+        SceneManager.LoadScene(1);
     }
 
     public void Update() {
