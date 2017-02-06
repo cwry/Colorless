@@ -90,6 +90,48 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &195681029
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -11.76727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.5826297
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011468297000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7dc6843c9de18514f80bc56eec235de5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &355160008
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,6 +144,7 @@ GameObject:
   - 114: {fileID: 355160011}
   - 114: {fileID: 355160010}
   - 114: {fileID: 355160009}
+  - 61: {fileID: 355160014}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -121,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  endPosition: 700
+  endPosition: 300
   txt: {fileID: 508985434}
 --- !u!114 &355160010
 MonoBehaviour:
@@ -192,12 +235,26 @@ RectTransform:
   m_Children:
   - {fileID: 508985436}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!61 &355160014
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355160008}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 5.197454, y: -867.35}
+  serializedVersion: 2
+  m_Size: {x: 11.394888, y: 0.000102472455}
 --- !u!1 &508985433
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,9 +304,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "THIS\nIS\nA\nREALLY\nREALLY\nREALLY\nREALLY\nREALLY \nLONG\nTEXT\n\nTHIS\nIS\nA\nREALLY\nREALLY\nREALLY\nREALLY\nREALLY
-    \nLONG\nTEXT\n\nTHIS\nIS\nA\nREALLY\nREALLY\nREALLY\nREALLY\nREALLY \nLONG\nTEXT\n\nTHIS\nIS\nA\nREALLY\nREALLY\nREALLY\nREALLY\nREALLY
-    \nLONG\nTEXT"
+  m_Text: "\n\n\nArt\n\nK\xE4the Keller\nZoe Nagel\nJannick Scialom\n\n\n\nGame Design\n\nErick
+    Fernandez\nAaron Ladewig\n\n\n\nProgramming\n\nDaniel Pochert\nValentin Bach\n\n\n\nProducing\n\nAdrian
+    Nonnenmann"
 --- !u!222 &508985435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -271,7 +328,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -902}
+  m_AnchoredPosition: {x: 0, y: -786}
   m_SizeDelta: {x: 0, y: 1180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &643165497
@@ -422,4 +479,4 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
