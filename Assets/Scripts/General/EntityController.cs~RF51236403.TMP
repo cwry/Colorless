@@ -43,7 +43,7 @@ public class EntityController : MonoBehaviour {
     bool isPushing;
     string currentAnimation;
 
-    public AudioSource footstepSound;
+    AudioSource footstepSound;
 
     bool shouldSuppressInput = false;
 
@@ -74,12 +74,6 @@ public class EntityController : MonoBehaviour {
         RaycastHit2D ray = Physics2D.CircleCast(rb.position, coll.radius, Vector2.down, Mathf.Infinity, 1 << LayerMask.NameToLayer("Terrain"));
         float slope = Mathf.Atan2(ray.normal.x, ray.normal.y) * Mathf.Rad2Deg;
         bool isGrounded = ray.distance <= groundBias;
-
-        if(isGrounded && Mathf.Abs(dir) > 0.1 && !footstepSound.isPlaying) {
-            footstepSound.Play();
-        }else if((!isGrounded || Mathf.Abs(dir) < 0.1) && footstepSound.isPlaying) {
-            footstepSound.Stop();
-        }
 
         if (isInClimbZone && !shouldJump && (isClimbing || Mathf.Abs(climbDir) > 0.25)) {
             jumping = false;
