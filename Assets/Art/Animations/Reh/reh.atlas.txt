@@ -1,0 +1,76 @@
+
+reh.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ear left back
+  rotate: false
+  xy: 737, 613
+  size: 125, 124
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+Ear right back
+  rotate: false
+  xy: 460, 212
+  size: 95, 145
+  orig: 95, 145
+  offset: 0, 0
+  index: -1
+Face back
+  rotate: false
+  xy: 737, 739
+  size: 247, 251
+  orig: 247, 251
+  offset: 0, 0
+  index: -1
+Front Face
+  rotate: false
+  xy: 270, 128
+  size: 188, 229
+  orig: 188, 229
+  offset: 0, 0
+  index: -1
+Front left
+  rotate: false
+  xy: 737, 481
+  size: 110, 130
+  orig: 110, 130
+  offset: 0, 0
+  index: -1
+Front right
+  rotate: false
+  xy: 864, 609
+  size: 98, 128
+  orig: 98, 128
+  offset: 0, 0
+  index: -1
+Half back
+  rotate: false
+  xy: 2, 90
+  size: 266, 267
+  orig: 266, 267
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 2, 359
+  size: 733, 631
+  orig: 733, 631
+  offset: 0, 0
+  index: -1
+half back left
+  rotate: true
+  xy: 2, 2
+  size: 86, 161
+  orig: 86, 161
+  offset: 0, 0
+  index: -1
+half back right
+  rotate: false
+  xy: 557, 214
+  size: 89, 143
+  orig: 89, 143
+  offset: 0, 0
+  index: -1
