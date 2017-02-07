@@ -28,6 +28,7 @@ public class PauseMenu : MonoBehaviour {
                 eventS.SetSelectedGameObject(storedSelected);
             } else storedSelected = eventS.currentSelectedGameObject;
         }
+
     }
 
     public void Pause() {

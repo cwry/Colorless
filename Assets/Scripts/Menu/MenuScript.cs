@@ -10,6 +10,7 @@ public class MenuScript : MonoBehaviour {
     public GameObject optionMenu;
     public GameObject startMenu;
     public GameObject creditsMenu;
+    public GameObject controlsMenu;
 
     public Button startText;
     public Button exitText;
@@ -22,7 +23,21 @@ public class MenuScript : MonoBehaviour {
     public GameObject controlsBackText;
     public GameObject quitNoText;
     public GameObject optionsBackText;
+
     public GameObject sMB;
+
+    public GameObject OptionsSelect;
+    public GameObject ControlsSelect;
+    public GameObject CreditsSelect;
+    public GameObject ExitSelect;
+
+    public Image MenuSelectButton1;
+    public Image MenuSelectButton2;
+    public Image MenuSelectButton3;
+    public Image MenuSelectButton4;
+    public Image MenuSelectButton5;
+    public Image MenuSelectButton6;
+    public Image MenuSelectButton7;
 
     // Use this for initialization
     void Start () {
@@ -49,6 +64,34 @@ public class MenuScript : MonoBehaviour {
                 eventS.SetSelectedGameObject(storedSelected);
             } else storedSelected = eventS.currentSelectedGameObject;
         }
+
+        if (eventS.currentSelectedGameObject == sMB)
+            MenuSelectButton1.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton1.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
+
+        if (eventS.currentSelectedGameObject == OptionsSelect)
+            MenuSelectButton2.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton2.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
+
+        if (eventS.currentSelectedGameObject == CreditsSelect)
+            MenuSelectButton3.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton3.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
+
+        if (eventS.currentSelectedGameObject == ControlsSelect)
+            MenuSelectButton4.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton4.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
+
+        if (eventS.currentSelectedGameObject == ExitSelect)
+            MenuSelectButton5.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton5.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
+
+        if (eventS.currentSelectedGameObject == creditsBackText)
+            MenuSelectButton6.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton7.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
+
+        if (eventS.currentSelectedGameObject == controlsBackText)
+            MenuSelectButton7.sprite = Resources.Load<Sprite>("MenuSelectButton_color");
+        else MenuSelectButton7.sprite = Resources.Load<Sprite>("MenuSelectButton_Grey");
     }
 
     public void ExitPress() {
@@ -90,11 +133,18 @@ public class MenuScript : MonoBehaviour {
         eventS.SetSelectedGameObject(creditsBackText);
     }
 
+    public void ControlsPress() {
+        startMenu.SetActive(false);
+        controlsMenu.SetActive(true);
+        eventS.SetSelectedGameObject(controlsBackText);
+    }
+
     public void BackPress() {
         startMenu.SetActive(true);
         creditsMenu.SetActive(false);
         optionMenu.SetActive(false);
         creditsMenu.SetActive(false);
+        controlsMenu.SetActive(false);
         eventS.SetSelectedGameObject(sMB);
     }
 
