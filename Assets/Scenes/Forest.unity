@@ -15490,7 +15490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mainTexture: {fileID: 2800000, guid: cc9cdd37b97df7048ad78a8642de0c95, type: 3}
-  _grayScaleTexture: {fileID: 2800000, guid: 282cd1936cfbc574abfcaba8a864c937, type: 3}
+  _grayScaleTexture: {fileID: 0}
   _animationMaskTexture: {fileID: 0}
   _interpolationRange: 0.1
   _animationState: 0
