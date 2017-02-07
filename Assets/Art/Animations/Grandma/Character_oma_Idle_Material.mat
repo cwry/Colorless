@@ -42,7 +42,7 @@ Material:
       second: 1
     - first:
         name: _animState
-      second: 0
+      second: 1
     - first:
         name: _grayFallback
       second: 1
