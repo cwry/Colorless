@@ -1,0 +1,229 @@
+{
+"skeleton": {
+	"hash": "uc+MVEX5baqNRvzVpOMyPsNVAf0",
+	"spine": "3.5.46",
+	"width": 791,
+	"height": 789.66,
+	"images": "D:/Pictures/GD-Colorless Projekt/Colorless_Character/desktop/Reh_Animal_Animation/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Body", "parent": "root", "length": 120.34, "rotation": 90, "x": 2.87, "y": 41.42 },
+	{ "name": "Face", "parent": "Body", "length": 142.58, "rotation": 0.53, "x": 143.88, "y": -2.62 },
+	{ "name": "Ear_Left", "parent": "Face", "length": 67.33, "rotation": -8.34, "x": 116.12, "y": -32.46 },
+	{ "name": "Ear_Right", "parent": "Face", "length": 86.46, "rotation": 17.09, "x": 146.96, "y": 34.43 }
+],
+"slots": [
+	{ "name": "Body", "bone": "Body", "attachment": "Body" },
+	{ "name": "Front Face", "bone": "Face", "attachment": "Face back" },
+	{ "name": "Ear right back", "bone": "Ear_Right", "attachment": "Ear right back" },
+	{ "name": "Half back", "bone": "root", "attachment": "Half back" },
+	{ "name": "Face back", "bone": "root", "attachment": "Face back" },
+	{ "name": "Front right", "bone": "root" },
+	{ "name": "half back right", "bone": "root", "attachment": "half back right" },
+	{ "name": "half back left", "bone": "root", "attachment": "half back left" },
+	{ "name": "Ear left back", "bone": "Ear_Left", "attachment": "half back left" }
+],
+"skins": {
+	"default": {
+		"Body": {
+			"Body": { "path": "Layer 9", "x": -50.92, "y": 244.73, "rotation": -90, "width": 733, "height": 631 }
+		},
+		"Ear left back": {
+			"Ear left back": { "x": 90.01, "y": -75.22, "rotation": -82.18, "width": 125, "height": 124 },
+			"half back left": { "x": 77.56, "y": -10.31, "rotation": -82.18, "width": 86, "height": 161 }
+		},
+		"Ear right back": {
+			"Ear right back": { "x": 66.07, "y": 9.1, "rotation": -107.61, "width": 95, "height": 145 },
+			"half back right": { "x": 69.07, "y": -1.3, "rotation": -107.61, "width": 89, "height": 143 }
+		},
+		"Front Face": {
+			"Face back": { "x": 72.36, "y": -54.32, "rotation": -90.53, "width": 247, "height": 251 },
+			"Half back": { "x": 66.29, "y": -61.77, "rotation": -90.53, "width": 266, "height": 267 }
+		},
+		"Front right": {
+			"Front right": { "x": 138.64, "y": 394.66, "width": 98, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Ear left back": {
+				"attachment": [
+					{ "time": 1.1667, "name": "Ear left back" },
+					{ "time": 2.8333, "name": "Ear left back" },
+					{ "time": 4, "name": "half back left" }
+				]
+			},
+			"Ear right back": {
+				"attachment": [
+					{ "time": 0, "name": "half back right" },
+					{ "time": 1.1667, "name": "Ear right back" },
+					{ "time": 4, "name": "half back right" }
+				]
+			},
+			"Face back": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"Front Face": {
+				"attachment": [
+					{ "time": 0, "name": "Half back" },
+					{ "time": 1.1667, "name": "Face back" },
+					{ "time": 4, "name": "Half back" }
+				]
+			},
+			"Half back": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"half back left": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"half back right": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 2.24, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 2.24 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0, "curve": "stepped" },
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0, "curve": "stepped" },
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"Ear_Left": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6333, "angle": 0 },
+					{ "time": 2.6667, "angle": 5.35 },
+					{ "time": 2.7333, "angle": -13.46 },
+					{ "time": 2.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"Ear_Right": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0, "curve": "stepped" },
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -13.56, "y": 8.82, "curve": "stepped" },
+					{ "time": 1.1667, "x": -13.56, "y": 8.82, "curve": "stepped" },
+					{ "time": 4, "x": -13.56, "y": 8.82 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "Front Face", "offset": 1 }
+				]
+			},
+			{
+				"time": 4,
+				"offsets": [
+					{ "slot": "Front Face", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

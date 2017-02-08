@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c2e17680ae003ff4da4e610ddc4a18b6
+timeCreated: 1486555127
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lucida Calligraphy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 53ab71c35dc80a34bbfb9ccb5c0ff466, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
