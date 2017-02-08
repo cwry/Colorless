@@ -306,7 +306,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\n\n\nArt\n\nZoe Nagel\nK\xE4the Keller\nJannick Scialom\n\n\n\nGame Design\n\nErick
     Fernandez\nAaron Ladewig\n\n\n\nProgramming\n\nDaniel Pochert\nValentin Bach\n\n\n\nProducing\n\nAdrian
-    Nonnenmann\n\n\n\nMusic\n\nCedric Douhaire\n\n\n\nSpecial thanks to\n\nSamir Riecke"
+    Nonnenmann\n\n\n\nMusic\n\nCedric Douhaire\n\n\n\nSpecial thanks to\n\nSamir Riecke\nBenjamin
+    Vehling\r\nAnjin Anhut\r\nJ\xF6rg Friedrich"
 --- !u!222 &508985435
 CanvasRenderer:
   m_ObjectHideFlags: 0
