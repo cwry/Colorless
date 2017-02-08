@@ -35,6 +35,7 @@ public class PauseMenu : MonoBehaviour {
 
         if (pauseMenuCanvas.gameObject.activeInHierarchy == false) {
             pauseMenuCanvas.gameObject.SetActive(true);
+            Globals.suppressPlayInput = false;
             Time.timeScale = 0;
             eventS.SetSelectedGameObject(sMB);
         }
@@ -42,6 +43,7 @@ public class PauseMenu : MonoBehaviour {
         {
             pauseMenuCanvas.gameObject.SetActive(false);
             Time.timeScale = 1;
+            Globals.suppressPlayInput = true;
         }
     }
 
