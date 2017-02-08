@@ -33618,7 +33618,8 @@ Prefab:
       propertyPath: maxDistance
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000014125200394, guid: 76cdf5ff7edfd844b9895baca471daf2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 76cdf5ff7edfd844b9895baca471daf2, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1667381725
@@ -38375,7 +38376,8 @@ Prefab:
       propertyPath: m_Volume
       value: 0.05
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000012952579934, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1890949745
