@@ -3449,7 +3449,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 724745555}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1809820418}
+        m_MethodName: StartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &724745555
@@ -8834,8 +8845,6 @@ MonoBehaviour:
   MenuSelectButton3: {fileID: 781610935}
   MenuSelectButton5: {fileID: 370179263}
   MenuSelectButton6: {fileID: 93625912}
-  sound: {fileID: 8300000, guid: a6c3a50ad6e75a248bc9957714ee4521, type: 3}
-  source: {fileID: 1869737125}
 --- !u!1 &1811943155
 GameObject:
   m_ObjectHideFlags: 0
