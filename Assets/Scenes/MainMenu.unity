@@ -1129,7 +1129,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 444, y: -435}
+  m_AnchoredPosition: {x: 444, y: -358}
   m_SizeDelta: {x: 480, y: 132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304384250
@@ -2532,7 +2532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &564307023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2645,7 +2645,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 444, y: 42.99997}
+  m_AnchoredPosition: {x: 444, y: 21}
   m_SizeDelta: {x: 480, y: 186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572383959
@@ -3767,7 +3767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &771368592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4812,7 +4812,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -452, y: 222}
+  m_AnchoredPosition: {x: -452, y: 200}
   m_SizeDelta: {x: 650, y: 98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1027819026
@@ -4960,7 +4960,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -452, y: -404}
+  m_AnchoredPosition: {x: -452, y: -327}
   m_SizeDelta: {x: 650, y: 103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1055811204
@@ -5102,7 +5102,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 444, y: -202}
+  m_AnchoredPosition: {x: 444, y: -224}
   m_SizeDelta: {x: 480, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065707545
@@ -5139,11 +5139,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Erick Fernandez
 
-    Aaron Ladewig
-
-    Umut Daydas
-
-    Jan-Dirk Verbeek'
+    Aaron Ladewig'
 --- !u!222 &1065707546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7355,7 +7351,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -452, y: 105}
+  m_AnchoredPosition: {x: -452, y: 83}
   m_SizeDelta: {x: 650, y: 103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449516386
@@ -7728,7 +7724,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 444, y: 212}
+  m_AnchoredPosition: {x: 444, y: 190}
   m_SizeDelta: {x: 480, y: 66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1565346408
@@ -9182,7 +9178,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -452, y: -116}
+  m_AnchoredPosition: {x: -452, y: -138}
   m_SizeDelta: {x: 650, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848035961
