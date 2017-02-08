@@ -30,6 +30,5 @@ public class ToBeContinued : MonoBehaviour {
             yield return null;
         }
         if (onDone != null) onDone();
-        gameObject.SetActive(false);
     }
 }
