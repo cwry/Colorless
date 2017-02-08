@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  endPosition: 300
+  endPosition: 550
   txt: {fileID: 508985434}
 --- !u!114 &355160010
 MonoBehaviour:
@@ -306,7 +306,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\n\n\nArt\n\nK\xE4the Keller\nZoe Nagel\nJannick Scialom\n\n\n\nGame Design\n\nErick
     Fernandez\nAaron Ladewig\n\n\n\nProgramming\n\nDaniel Pochert\nValentin Bach\n\n\n\nProducing\n\nAdrian
-    Nonnenmann"
+    Nonnenmann\n\n\n\nMusic\n\nCedric Douhaire\n\n\n\nSpecial thanks to\n\nSamir Riecke"
 --- !u!222 &508985435
 CanvasRenderer:
   m_ObjectHideFlags: 0
