@@ -27415,7 +27415,7 @@ MonoBehaviour:
           supportedType: 3
           objectArgument: {fileID: 0}
           stringArgument: 
-          intArgument: 2
+          intArgument: 3
           floatArgument: 0
           boolArgument: 0
           colorArgument: {r: 0, g: 0, b: 0, a: 0}
@@ -38421,11 +38421,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 215.8
+      value: -193.4
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4000012173365468, guid: edd1e14b99870014bb77cf9fe47ef42d, type: 2}
       propertyPath: m_LocalPosition.z
