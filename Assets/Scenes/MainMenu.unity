@@ -2497,18 +2497,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a7bb337de886f0b46a75e1c4819dfd99, type: 3}
-    m_FontSize: 41
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 45
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Are u sure u want to quit?
+  m_Text: Are you sure you want to quit?
 --- !u!222 &535357373
 CanvasRenderer:
   m_ObjectHideFlags: 0
